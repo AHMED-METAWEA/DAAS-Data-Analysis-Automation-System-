@@ -1,0 +1,94 @@
+{
+  "header": {
+    "title": "Churn Prediction",
+    "description": "Customer retention intelligence — risk scoring, expected revenue at risk, and grounded retention strategy."
+  },
+  "rerun": "Re-run",
+  "controls": {
+    "horizon": "Churn horizon",
+    "horizonDays": "{days} days",
+    "run": "Run churn analysis",
+    "analyzing": "Analyzing…"
+  },
+  "loading": {
+    "label": "Engineering features and training the churn model…",
+    "stage": "This trains a gradient-boosted classifier and back-tests it out-of-time."
+  },
+  "errors": {
+    "analysisFailed": "Churn analysis failed.",
+    "retentionPlanFailed": "Could not generate the retention plan."
+  },
+  "notAvailable": "Churn analysis is not available for this data.",
+  "kpis": {
+    "customersAnalyzed": "Customers analyzed",
+    "customersAnalyzedSub": "Full active base",
+    "highRisk": "High-risk",
+    "highRiskSub": "{percent}% of base",
+    "expectedRevAtRisk": "Expected rev. at risk",
+    "expectedRevAtRiskSub": "next {days} days",
+    "modelAuc": "Model AUC",
+    "validation": "Validation",
+    "cutoffs": "{count} cutoffs"
+  },
+  "riskDistribution": {
+    "title": "Risk distribution",
+    "low": "Low risk",
+    "medium": "Medium risk",
+    "high": "High risk",
+    "percentOfCustomers": "{percent}% of customers",
+    "scoredBy": "Risk scored by {model} · {days}-day horizon · snapshot {date}",
+    "defaultModel": "the churn model"
+  },
+  "modelIntelligence": {
+    "title": "Model intelligence",
+    "model": "Model",
+    "auc": "AUC",
+    "precision": "Precision",
+    "recall": "Recall",
+    "f1": "F1",
+    "baseChurnRate": "Base churn rate",
+    "calibrated": "Calibrated",
+    "yes": "Yes",
+    "no": "No",
+    "backTestedOutOfTime": "Back-tested out-of-time",
+    "notBackTested": "Not back-tested"
+  },
+  "highRiskTable": {
+    "title": "Highest-risk customers",
+    "rankedByValue": "Ranked by expected value at risk = churn probability × historical spend",
+    "rankedByProbability": "Ranked by churn probability",
+    "customersCount": "{count} customers",
+    "exportCsv": "Export CSV",
+    "columns": {
+      "customer": "Customer",
+      "tier": "Tier",
+      "historicalSpend": "Historical spend",
+      "churnProbability": "Churn probability",
+      "expectedLoss": "Expected loss",
+      "recencyDays": "Recency (d)"
+    },
+    "showing": "Showing {shown} of {total} at-risk customers",
+    "driverTooltip": "{feature}: {value} SHAP (this customer's own prediction)"
+  },
+  "riskTiers": {
+    "High": "High",
+    "Medium": "Medium",
+    "Low": "Low"
+  },
+  "featureImportance": {
+    "title": "Feature importance",
+    "subtitle": "Permutation importance — how much model AUC drops if a feature is shuffled.",
+    "unavailable": "Feature importance unavailable (heuristic fallback model was used).",
+    "shapTitle": "SHAP impact (explainable AI)",
+    "shapSubtitle": "Average per-prediction contribution — a second, complementary explainability technique."
+  },
+  "retention": {
+    "title": "Retention strategy",
+    "subtitle": "Grounded in the model outputs above",
+    "businessContextLabel": "Business context (optional)",
+    "businessContextPlaceholder": "Industry, goals, constraints…",
+    "generate": "Generate retention plan",
+    "writing": "Writing…",
+    "reportTitle": "Customer Retention Strategy"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "header": {
+    "title": "Reports & Saved Assets",
+    "description": "A library of saved Business Insights, Forecast, Marketing, and Churn reports across your projects."
+  },
+  "refresh": "Refresh",
+  "filters": {
+    "searchPlaceholder": "Search reports…",
+    "typePlaceholder": "Type",
+    "allTypes": "All types",
+    "projectPlaceholder": "Project",
+    "allProjects": "All projects",
+    "countOf": "{filtered} of {total}"
+  },
+  "types": {
+    "insights": "Business Insights",
+    "forecast": "Forecast",
+    "marketing": "Marketing",
+    "churn": "Churn"
+  },
+  "loading": "Loading your reports…",
+  "errors": {
+    "loadFailed": "Could not load reports.",
+    "loadReportFailed": "Could not load this report."
+  },
+  "empty": {
+    "noReportsTitle": "No saved reports yet",
+    "noMatchTitle": "No reports match",
+    "noReportsDescription": "Generate a report in Business Insights, Forecasting, Marketing, or Churn, then save it to see it here.",
+    "noMatchDescription": "Try adjusting your filters."
+  },
+  "table": {
+    "report": "Report",
+    "type": "Type",
+    "project": "Project",
+    "saved": "Saved"
+  },
+  "dialog": {
+    "defaultTitle": "Report",
+    "loading": "Loading report…"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "مركز التحكم",
+  "description": "لمحة عن العمل ومساعد ذكي مدعوم بالبيانات لهذا المشروع.",
+  "askDaas": "اسأل DAAS",
+  "connectData": "ربط البيانات",
+  "emptyTitle": "أنشئ مشروعك الأول",
+  "emptyDescription": "يحتاج DAAS إلى مشروع — تم استيراد بياناته وتنظيفها وحفظها — قبل أن يظهر أي شيء هنا.",
+  "createProject": "إنشاء مشروع",
+  "noProjectSelected": "لم يتم اختيار مشروع",
+  "rowsColumns": "{rows} صفًا · {columns} عمودًا",
+  "businessSnapshot": "لمحة عن العمل",
+  "computingSnapshot": "جارٍ حساب اللمحة…",
+  "computedFromSavedData": "محسوبة من بيانات هذا المشروع المحفوظة",
+  "snapshotLoadError": "تعذّر تحميل لمحة العمل.",
+  "workspaces": "مساحات العمل",
+  "quickLinks": {
+    "data": "مساحة عمل البيانات",
+    "visualization": "التصور المرئي",
+    "insights": "رؤى الأعمال",
+    "forecasting": "التنبؤ",
+    "marketing": "التسويق",
+    "churn": "تنبؤ تسرب العملاء"
+  },
+  "copilotPromo": {
+    "title": "المساعد الذكي",
+    "description": "اطرح سؤالاً عن العمل بلغة طبيعية — سيتم توجيهه تلقائيًا إلى الوكيل المتخصص المناسب (التصور المرئي، الرؤى، التنبؤ، التسويق، أو تسرب العملاء).",
+    "openButton": "فتح المساعد الذكي"
+  }
+}

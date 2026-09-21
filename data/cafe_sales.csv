@@ -1,0 +1,13 @@
+Transaction ID	Item	Quantity	Price Per Unit	Total Spent	Payment Method	Location	Transaction Date
+TXN_1961373	Coffee	2	20	40	Credit Card	Takeaway	9/8/2023
+TXN_4977031	Cake	4	30	120	Cash	In-store	5/16/2023
+TXN_4271903	Cookie	4	10	40	Credit Card	In-store	7/19/2023
+TXN_7034554	Salad	2	50	100	UNKNOWN	UNKNOWN	4/27/2023
+TXN_3160411	Coffee	2	20	40	Digital Wallet	In-store	6/11/2023
+TXN_2602893	Smoothie	5	40	200	Credit Card	Takeaway	3/31/2023
+TXN_4433211	UNKNOWN	3	30	90	ERROR	Takeaway	10/6/2023
+TXN_6699534	Sandwich	4	40	160	Cash	UNKNOWN	10/28/2023
+TXN_4717867	Juice	5	30	150	Digital Wallet	Takeaway	7/28/2023
+TXN_2064365	Sandwich	5	40	200	Digital Wallet	In-store	12/31/2023
+TXN_2548360	Salad	5	50	240	Cash	Takeaway	11/7/2023
+TXN_3051279	Sandwich	2	40	80	Credit Card	Takeaway	11/7/2023

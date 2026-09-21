@@ -1,0 +1,22 @@
+{
+  "title": "Analyst Copilot",
+  "description": "Ask anything — routed automatically to the right specialist agent, and it can run several at once.",
+  "emptyHint": "Ask anything about this business. It figures out which specialist agents to run — and can chain several in one answer.",
+  "routing": "Routing to the right agent…",
+  "errorRetry": "Could not get an answer. Try again.",
+  "placeholder": "Ask about this business…",
+  "viewFullReport": "View full report",
+  "stop": "Stop",
+  "copy": "Copy",
+  "copied": "Copied to clipboard",
+  "copyFailed": "Couldn't copy",
+  "regenerate": "Regenerate",
+  "saveToReports": "Save to Reports",
+  "savedToReports": "Saved to Reports",
+  "saveFailed": "Couldn't save the report",
+  "suggestionsTitle": "Try one of these",
+  "suggestion1": "Give me a business health summary",
+  "suggestion2": "Show revenue by month as a chart",
+  "suggestion3": "Forecast next quarter's revenue and flag who's about to churn",
+  "suggestion4": "Who are our best customers, and what campaign should we run?"
+}

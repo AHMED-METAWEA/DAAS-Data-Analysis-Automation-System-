@@ -1,0 +1,130 @@
+{
+  "header": {
+    "title": "ذكاء التسويق",
+    "description": "تقسيم RFM، طبقة مخاطر تسرب العملاء، واستراتيجية حملات مدعومة بالبيانات.",
+    "reanalyze": "إعادة التحليل"
+  },
+  "brief": {
+    "title": "ملخص التسويق",
+    "description": "أخبرنا بهدفك وقيودك — سيتم بناء الاستراتيجية على شرائح RFM ومؤشرات الأداء الفعلية لهذا المشروع.",
+    "primaryObjective": "الهدف الرئيسي",
+    "budgetLabel": "الميزانية",
+    "budgetPlaceholder": "مثال: 5,000 دولار / شهر",
+    "brandVoiceLabel": "نبرة العلامة التجارية",
+    "brandVoicePlaceholder": "مثال: ودودة، فاخرة، مرحة…",
+    "allowedChannels": "القنوات المسموح بها",
+    "additionalContext": "سياق إضافي",
+    "additionalContextPlaceholder": "أي شيء آخر يجب أن تراعيه الاستراتيجية…",
+    "useForecast": "ابنِ الاستراتيجية على أحدث تنبؤ",
+    "useForecastHint": "(شغّل تنبؤًا أولاً)",
+    "useChurn": "ابنِ الاستراتيجية على أحدث تحليل تسرب",
+    "useChurnHint": "(شغّل تحليل التسرب أولاً)",
+    "analyzing": "جارٍ التحليل…",
+    "runAnalysis": "تشغيل التحليل"
+  },
+  "loading": {
+    "label": "جارٍ تحليل العملاء…",
+    "stage": "حساب شرائح RFM وطبقة التسرب ومؤشرات الأداء"
+  },
+  "error": {
+    "runFailed": "تعذّر تشغيل تحليل التسويق."
+  },
+  "objectives": {
+    "revenueGrowth": "نمو الإيرادات",
+    "customerRetention": "الاحتفاظ بالعملاء",
+    "winBack": "استعادة / إعادة تنشيط العملاء",
+    "newAcquisition": "اكتساب عملاء جدد",
+    "loyaltyAdvocacy": "الولاء والترويج",
+    "maximiseAov": "تعظيم متوسط قيمة الطلب"
+  },
+  "channels": {
+    "email": "البريد الإلكتروني",
+    "sms": "الرسائل النصية",
+    "paidSocial": "إعلانات مدفوعة على السوشيال ميديا",
+    "searchAds": "إعلانات البحث",
+    "push": "إشعارات فورية",
+    "retargeting": "إعادة الاستهداف",
+    "influencer": "المؤثرون",
+    "contentSeo": "المحتوى / تحسين محركات البحث",
+    "affiliate": "التسويق بالعمولة"
+  },
+  "kpis": {
+    "repeatRate": "معدل الشراء المتكرر",
+    "avgCustomerValue": "متوسط قيمة العميل",
+    "aov": "متوسط قيمة الطلب",
+    "churnRiskRfm": "مخاطر التسرب (RFM)"
+  },
+  "tabs": {
+    "segments": "الشرائح",
+    "churn": "طبقة التسرب",
+    "strategy": "الاستراتيجية",
+    "campaign": "بناء الحملات",
+    "copy": "نصوص الإعلانات"
+  },
+  "segments": {
+    "unavailable": "تقسيم RFM غير متاح لبيانات هذا المشروع.",
+    "summary": "{count} عميل · {revenue} إجمالي الإيرادات · لقطة بتاريخ: {snapshot}",
+    "notAvailable": "غير متاح",
+    "avg": "المتوسط {value}",
+    "pctOfRev": "{pct}% من الإيرادات"
+  },
+  "churn": {
+    "unavailable": "تحليل التسرب غير متاح لبيانات هذا المشروع.",
+    "highRiskCustomers": "العملاء عالو الخطورة",
+    "acrossAllSegments": "عبر جميع الشرائح",
+    "expectedRevenueAtRisk": "الإيرادات المتوقع تعرضها للخطر",
+    "overModelHorizon": "خلال أفق النموذج",
+    "modelAuc": "دقة النموذج (AUC)",
+    "bySegmentTitle": "مخاطر التسرب حسب شريحة RFM",
+    "segmentStats": "{scored} تم تقييمهم · متوسط الاحتمال {prob}<risk>{highRisk} عالي الخطورة ({pct}%)</risk>",
+    "noBreakdown": "لا يتوفر تفصيل حسب الشريحة.",
+    "highRiskAudience": "جمهور عالي الخطورة ({count})",
+    "mediumRiskAudience": "جمهور متوسط الخطورة ({count})"
+  },
+  "strategy": {
+    "askHeading": "اسأل وكيل التسويق",
+    "reportTitle": "استراتيجية التسويق",
+    "thinking": "جارٍ التفكير…",
+    "chatPlaceholder": "طوّر الاستراتيجية، اطلب نصوصًا بديلة، أو تعمّق في شريحة معينة…"
+  },
+  "campaign": {
+    "title": "خطة الحملة",
+    "description": "مبنية على الملخص أعلاه، ومدعومة بشرائح RFM ومؤشرات الأداء المحسوبة.",
+    "designing": "جارٍ التصميم…",
+    "generate": "توليد خطة الحملة",
+    "generateError": "تعذّر توليد خطة الحملة.",
+    "noCampaigns": "لم يتم توليد أي حملات.",
+    "planSummary": "ملخص الخطة:",
+    "table": {
+      "campaign": "الحملة",
+      "segment": "الشريحة",
+      "channel": "القناة",
+      "budgetPct": "نسبة الميزانية %",
+      "priority": "الأولوية"
+    },
+    "offer": "العرض:",
+    "angle": "الزاوية:",
+    "expectedImpact": "الأثر المتوقع:"
+  },
+  "adCopy": {
+    "noSegments": "لا توجد شرائح عملاء متاحة لكتابة نصوص لها.",
+    "generateHeading": "توليد نصوص إعلانية",
+    "generateDescription": "نصوص جاهزة لكل قناة، مبنية على إحصاءات الشريحة الفعلية.",
+    "segmentLabel": "الشريحة",
+    "channelLabel": "القناة",
+    "platformLabel": "المنصة",
+    "offerLabel": "العرض / الجملة الجاذبة",
+    "offerPlaceholder": "مثال: \"خصم 15% على طلبك القادم\"",
+    "writing": "جارٍ الكتابة…",
+    "generate": "توليد",
+    "generateError": "تعذّر توليد النص الإعلاني.",
+    "generationFailed": "فشل توليد النص: {error}",
+    "headlines": "عناوين / أسطر الموضوع",
+    "bodyCopy": "نص الإعلان",
+    "ctasLabel": "دعوات اتخاذ إجراء · بريد إلكتروني · رسائل نصية",
+    "grounded": "مدعوم بالبيانات",
+    "ctas": "دعوات اتخاذ إجراء:",
+    "emailSubject": "عنوان البريد الإلكتروني:",
+    "preview": "معاينة:"
+  }
+}

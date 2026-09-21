@@ -1,0 +1,16 @@
+{
+  "roleTag": {
+    "pk": "PK",
+    "fk": "FK",
+    "both": "PK/FK"
+  },
+  "node": {
+    "primaryBadge": "أساسي",
+    "rowsCols": "{rows, plural, one {# صف} two {# صفان} other {# صفوف}} · {cols, plural, one {# عمود} two {# عمودان} other {# أعمدة}}"
+  },
+  "legend": {
+    "approved": "معتمدة",
+    "rejected": "مرفوضة",
+    "lowConfidence": "ثقة أقل — يستحق المراجعة"
+  }
+}

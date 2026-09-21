@@ -1,0 +1,111 @@
+{
+  "list": {
+    "title": "المشاريع",
+    "description": "كل مشروع هو بيئة تحليل أعمال مستقلة — تبقى البيانات والتحليلات والأصول ضمن نطاقه.",
+    "newProject": "مشروع جديد",
+    "loading": "جارٍ تحميل المشاريع…",
+    "loadFailed": "تعذّر تحميل المشاريع.",
+    "emptyTitle": "لا توجد مشاريع بعد",
+    "emptyDescription": "أنشئ مشروع التحليل الأول لربط مصادر البيانات وتشغيل الوكلاء وإنتاج قرارات مدعومة بالبيانات.",
+    "createProject": "إنشاء مشروع",
+    "createNewProjectCard": "إنشاء مشروع جديد",
+    "createNewProjectHint": "ابدأ من ملفات أو جداول بيانات أو قاعدة بيانات",
+    "table": {
+      "project": "المشروع",
+      "source": "المصدر",
+      "created": "تاريخ الإنشاء",
+      "status": "الحالة"
+    },
+    "open": "فتح",
+    "createdOn": "أُنشئ في {date}",
+    "deleteConfirm": "حذف المشروع \"{name}\"؟ لا يمكن التراجع عن هذا الإجراء."
+  },
+  "sourceLabels": {
+    "files": "ملفات مرفوعة",
+    "google_sheet": "جداول بيانات جوجل",
+    "database": "قاعدة بيانات خارجية"
+  },
+  "create": {
+    "title": "إنشاء مشروع جديد",
+    "description": "ابدأ بيئة تحليل أعمال جديدة.",
+    "cancel": "إلغاء",
+    "back": "رجوع",
+    "continue": "متابعة",
+    "steps": {
+      "details": "تفاصيل المشروع",
+      "source": "اختيار المصدر",
+      "configure": "الإعداد",
+      "review": "المراجعة"
+    },
+    "sourceTypes": {
+      "upload": { "label": "رفع ملفات", "desc": "CSV، TSV، Excel، JSON، Parquet" },
+      "sheets": { "label": "جداول بيانات جوجل", "desc": "اربط جدول بيانات واختر الأوراق" },
+      "database": { "label": "قاعدة بيانات موجودة", "desc": "PostgreSQL، MySQL، MSSQL · قراءة فقط" }
+    },
+    "errors": {
+      "nameRequired": "اسم المشروع مطلوب.",
+      "createFailed": "تعذّر إنشاء المشروع.",
+      "addAtLeastOneFile": "أضف ملفًا واحدًا على الأقل.",
+      "sheetFieldsRequired": "رابط جدول البيانات ومفتاح حساب الخدمة مطلوبان.",
+      "dbFieldsRequired": "المضيف وقاعدة البيانات واسم المستخدم مطلوبة.",
+      "connectFailed": "تعذّر الاتصال بمصدر البيانات.",
+      "connectionFailed": "فشل الاتصال."
+    },
+    "step0": {
+      "title": "تفاصيل المشروع",
+      "description": "أخبرنا بالغرض من هذا المشروع. يمكنك تغيير هذا لاحقًا.",
+      "nameLabel": "اسم المشروع *",
+      "namePlaceholder": "مثال: أطلس للتجارة - الربع الثالث"
+    },
+    "step1": {
+      "title": "اختر مصدر البيانات",
+      "description": "يمكنك ربط مصادر إضافية بهذا المشروع لاحقًا.",
+      "creating": "جارٍ الإنشاء…"
+    },
+    "step2": {
+      "upload": {
+        "title": "رفع الملفات",
+        "description": "يصبح كل ملف جدولاً مستقلاً — لا يتم دمجها في جدول واحد.",
+        "dropzoneTitle": "أفلت الملفات هنا أو انقر للتصفح",
+        "dropzoneHint": "CSV، TSV، Excel، JSON، Parquet",
+        "filesReady": "{count, plural, one {# ملف} two {# ملفان} other {# ملفات}} جاهز",
+        "willBeParsed": "{size} ميغابايت · سيُعالج كجدول مستقل",
+        "arabicDetectionTitle": "كشف النصوص العربية.",
+        "arabicDetectionBody": "إذا كانت ملفاتك تحتوي على أعمدة عربية، سيكتشف وكيل تنظيف البيانات ذلك ويقترح التطبيع تلقائيًا."
+      },
+      "sheets": {
+        "title": "ربط جداول بيانات جوجل",
+        "description": "الصق رابط مشاركة ومفتاح حساب الخدمة الذي مُنح صلاحية الوصول. تصبح كل ورقة جدولاً مستقلاً.",
+        "urlLabel": "رابط جدول البيانات",
+        "keyLabel": "مفتاح حساب الخدمة (JSON)",
+        "shareHint": "شارك جدول البيانات مع <code>client_email</code> الخاص بحساب الخدمة هذا قبل الاتصال."
+      },
+      "database": {
+        "title": "ربط قاعدة بيانات موجودة",
+        "description": "استخدم بيانات اعتماد للقراءة فقط. لن يكتب DAAS إلى قاعدة بياناتك أبدًا.",
+        "hostLabel": "المضيف",
+        "portLabel": "المنفذ",
+        "databaseLabel": "قاعدة البيانات",
+        "userLabel": "المستخدم (قراءة فقط)",
+        "passwordLabel": "كلمة المرور",
+        "testing": "جارٍ الاختبار…",
+        "testConnection": "اختبار الاتصال",
+        "verifiedTitle": "تم التحقق من الاتصال.",
+        "verifiedBody": "تم تأكيد الوصول للقراءة فقط."
+      },
+      "connecting": "جارٍ الاتصال…"
+    },
+    "step3": {
+      "title": "المراجعة والإنشاء",
+      "tablesDiscovered": "تم اكتشاف {count, plural, one {# جدول} two {# جدولان} other {# جداول}}. أكّد لبدء التنميط والتنظيف.",
+      "projectName": "اسم المشروع",
+      "dataSource": "مصدر البيانات",
+      "primaryTable": "الجدول الأساسي",
+      "tablesDiscoveredLabel": "الجداول المكتشفة",
+      "tableRowsFormat": "{name} ({rows} صف)",
+      "whatsNext": "ماذا يحدث بعد ذلك",
+      "whatsNextBody": "سيقوم وكيل تنظيف البيانات بتنميط كل جدول واكتشاف المخطط واقتراح علاقات لمراجعتك وإنشاء خطة تنظيف. ستوافق على كل خطوة مؤثرة.",
+      "goToWorkspace": "الانتقال إلى مساحة عمل البيانات"
+    }
+  }
+}

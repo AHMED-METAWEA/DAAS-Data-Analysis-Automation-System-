@@ -1,0 +1,92 @@
+{
+  "brand": "DAAS",
+  "brandSubtitle": "BI Operating System",
+  "sidebar": {
+    "workspaceLabel": "Workspace",
+    "items": {
+      "command-center": "Command Center",
+      "copilot": "Copilot",
+      "projects": "Projects",
+      "data": "Data",
+      "visualization": "Visualization",
+      "insights": "Insights",
+      "root-cause": "Root Cause",
+      "monitoring": "Autopilot",
+      "forecasting": "Forecasting",
+      "marketing": "Marketing",
+      "churn": "Churn",
+      "crm": "CRM",
+      "reports": "Reports"
+    },
+    "switchProject": "Switch project",
+    "noProjectSelected": "No project selected",
+    "createNewProject": "Create new project",
+    "account": "Account",
+    "settings": "Settings",
+    "providersConfigured": "Providers · {count} configured",
+    "expandSidebar": "Expand sidebar",
+    "collapseSidebar": "Collapse sidebar",
+    "collapse": "Collapse"
+  },
+  "header": {
+    "noProject": "No project",
+    "askPlaceholder": "Ask DAAS about this business…",
+    "toggleContextPanel": "Toggle context panel",
+    "notificationsDisabled": "Notifications — not yet configured",
+    "commandCenter": "Command Center",
+    "inviteTeammates": "Invite teammates",
+    "soon": "Soon",
+    "helpDocs": "Help & docs",
+    "signOut": "Sign out",
+    "alertsUnread": "{count} unread alert(s)",
+    "alertsNone": "No new alerts"
+  },
+  "palette": {
+    "placeholder": "Ask DAAS about this business…  (e.g. \"Why did revenue decline last month?\")",
+    "noResultsFor": "No results for \"{query}\"",
+    "askHeading": "Ask DAAS",
+    "askHint": "Opens Copilot and routes to the right specialist agent, grounded in this project's saved data.",
+    "navigateHeading": "Navigate",
+    "quickActionsHeading": "Quick actions",
+    "suggestedHeading": "Suggested prompts",
+    "hints": {
+      "command-center": "Business snapshot, agents, next actions",
+      "copilot": "Ask anything — routed to the right agent",
+      "projects": "Manage analysis projects",
+      "data": "Sources, schema, cleaning, reconciliation",
+      "visualization": "Executive dashboard & AI chart studio",
+      "insights": "Findings, risks, opportunities",
+      "forecasting": "Back-tested multi-model forecasts",
+      "marketing": "RFM segments & campaigns",
+      "churn": "Risk scoring & retention strategy",
+      "crm": "Customer book, segments & prioritised call list",
+      "reports": "Saved reports library",
+      "account": "Profile, security, API keys, billing",
+      "settings": "Providers, storage, appearance"
+    },
+    "quickActions": {
+      "createProject": "Create new project",
+      "createProjectHint": "Start a new analysis project",
+      "connectData": "Connect a data source",
+      "connectDataHint": "Upload files, sheets, or database",
+      "generateChart": "Generate AI chart",
+      "generateChartHint": "Describe a chart in natural language",
+      "runForecast": "Run 90-day forecast",
+      "runForecastHint": "Multi-model forecast with back-test",
+      "reviewChurn": "Review churn risk",
+      "reviewChurnHint": "High-value customers at risk",
+      "buildCampaign": "Build retention campaign",
+      "buildCampaignHint": "Targeted at-risk audience",
+      "generateReport": "Generate business report",
+      "generateReportHint": "Grounded exportable asset"
+    },
+    "suggestions": [
+      "Why did revenue decline last month?",
+      "Show the products driving growth.",
+      "Forecast weekly revenue for 90 days.",
+      "Which high-value customers are most likely to churn?",
+      "Create a retention strategy for at-risk customers.",
+      "Build a chart: monthly revenue by category"
+    ]
+  }
+}

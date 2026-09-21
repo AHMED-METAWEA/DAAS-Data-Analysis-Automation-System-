@@ -1,0 +1,125 @@
+{
+  "header": {
+    "title": "التنبؤ",
+    "description": "تنبؤات متعددة النماذج مُختبرة تاريخيًا بثقة صادقة. لا تدّعي يقينًا وهميًا أبدًا."
+  },
+  "rerun": "إعادة التشغيل",
+  "reportTitle": "تنبؤ — {metrics}",
+  "controls": {
+    "targetMetric": "المقياس المستهدف",
+    "loadingMetrics": "جارٍ التحميل…",
+    "selectMetric": "اختر مقياسًا",
+    "model": "النموذج",
+    "modelAuto": "تلقائي (تجميع نماذج)",
+    "horizonDays": "{days} يومًا",
+    "run": "تشغيل التنبؤ",
+    "running": "جارٍ التشغيل…"
+  },
+  "granularityOptions": {
+    "native": "الأصلي",
+    "daily": "يومي",
+    "weekly": "أسبوعي",
+    "monthly": "شهري"
+  },
+  "errors": {
+    "loadMetrics": "تعذّر تحميل المقاييس القابلة للتنبؤ لهذا المشروع.",
+    "generateForecast": "تعذّر إنشاء التنبؤ."
+  },
+  "emptyMetrics": "لم يُعثر على مقياس زمني قابل للتنبؤ في البيانات المحفوظة لهذا المشروع — يتطلب التنبؤ عمود تاريخ وعمودًا رقميًا واحدًا على الأقل مع سجل كافٍ.",
+  "loading": {
+    "label": "جارٍ اختبار النماذج المرشحة تاريخيًا وإنشاء التنبؤ الخاص بك…",
+    "stage": "قد يستغرق هذا بعض الوقت — يتم التحقق التبادلي من عدة نماذج."
+  },
+  "notForecastable": "تعذّر التنبؤ بهذه البيانات.",
+  "chart": {
+    "title": "تنبؤ {metric} · الأيام الـ{horizon} القادمة · {frequency}",
+    "subtitle": "{periods} فترة {granularity} تم التدريب عليها · النموذج: {model}"
+  },
+  "stats": {
+    "forecastLabel": "التنبؤ ({horizon} يوم)",
+    "vsCurrent": "{sign}{percent}% مقارنة بالقيمة الحالية",
+    "backtestMase": "MASE للاختبار التاريخي",
+    "mapeSub": "MAPE {mape}% · أقل من 1.0 يتفوق على النموذج الساذج",
+    "horizonTotal": "الإجمالي ({horizon} يوم)",
+    "horizonAverage": "المتوسط ({horizon} يوم)",
+    "range": "نطاق {level}%: {lower}–{upper}",
+    "vsPrevious": "مقارنة بالـ {horizon} يوم السابقة",
+    "previousWas": "سابقًا {value}",
+    "skillSub": "مقابل أفضل نموذج أساسي",
+    "coverage": "تغطية نطاق {level}%",
+    "calibrated": "معايرة جيدة",
+    "approximate": "تقريبي — تعامل مع النطاق بمرونة"
+  },
+  "leaderboard": {
+    "title": "لوحة ترتيب النماذج",
+    "subtitle": "اختبار خارج العينة · مرتّب حسب MASE",
+    "modelsCount": "{count} نموذج",
+    "columns": {
+      "model": "النموذج",
+      "folds": "الطيّات"
+    },
+    "noHistory": "لا يوجد سجل كافٍ لاختبار النماذج المرشحة لهذا المقياس تاريخيًا."
+  },
+  "ensemble": {
+    "title": "تركيب النموذج المُجمّع",
+    "weight": "الوزن:"
+  },
+  "evaluation": {
+    "title": "التقييم"
+  },
+  "why": {
+    "title": "لماذا هذا التنبؤ؟",
+    "impact": "تأثير {impact}"
+  },
+  "risksActions": {
+    "title": "المخاطر والإجراءات",
+    "risks": "المخاطر",
+    "opportunities": "الفرص",
+    "recommendedActions": "الإجراءات الموصى بها"
+  },
+  "common": {
+    "selectedModel": "النموذج المختار",
+    "mase": "MASE",
+    "mape": "MAPE",
+    "mae": "MAE",
+    "rmse": "RMSE",
+    "skillVsNaive": "الأداء مقارنة بالنموذج الساذج",
+    "confidence": "الثقة",
+    "notBackTested": "لم يُختبر تاريخيًا",
+    "backTested": "مُختبر تاريخيًا",
+    "horizon": "الأفق الزمني",
+    "granularity": "دقة التجميع الزمني",
+    "trainingPeriods": "فترات التدريب",
+    "lowerBetter": "الأقل هو الأفضل",
+    "signalVsNoise": "الإشارة مقابل الضجيج",
+    "fittedScale": "المقياس المستخدم"
+  },
+  "reliability": {
+    "reliable": "موثوق",
+    "indicative": "استرشادي فقط",
+    "unreliable": "غير موثوق",
+    "unknown": "لم يُقيَّم",
+    "tryGranularity": "جرّب {granularity}"
+  },
+  "drift": {
+    "title": "الأداء الفعلي"
+  },
+  "verdict": {
+    "strong": "(إشارة قوية)",
+    "moderate": "(إشارة متوسطة)",
+    "weak": "(إشارة ضعيفة)",
+    "noise-dominated": "(ضجيج في الغالب)",
+    "unknown": ""
+  },
+  "dataQuality": {
+    "title": "جودة البيانات",
+    "filled": "{count} فترة ({share}%) بدون سجلات — {how}",
+    "asZero": "اعتُبرت صفرًا",
+    "interpolated": "تم استيفاؤها",
+    "droppedPartial": "تم استبعاد فترات {kinds} غير المكتملة — الفترة الناقصة ليست فترة منخفضة",
+    "anomalies": "تم تقييد {count} فترة شاذة عند التدريب ({dates})",
+    "levelShift": "تم رصد تغيّر مستمر في المستوى ({score} انحراف معياري) — البيانات الأقدم تصف نظامًا مختلفًا",
+    "intermittent": "الطلب متقطع (فترات صفرية متكررة) — نسب الخطأ المئوية غير موثوقة هنا",
+    "anomaliesNoDates": "تم تقييد {count} فترة شاذة عند التدريب"
+  }
+}

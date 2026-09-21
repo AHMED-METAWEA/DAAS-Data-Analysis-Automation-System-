@@ -1,0 +1,111 @@
+{
+  "list": {
+    "title": "Projects",
+    "description": "Each project is one business analysis environment — data, analytics, and assets stay scoped here.",
+    "newProject": "New project",
+    "loading": "Loading projects…",
+    "loadFailed": "Could not load projects.",
+    "emptyTitle": "No projects yet",
+    "emptyDescription": "Create your first analysis project to connect data sources, run agents, and produce grounded decisions.",
+    "createProject": "Create project",
+    "createNewProjectCard": "Create new project",
+    "createNewProjectHint": "Start from files, sheets, or database",
+    "table": {
+      "project": "Project",
+      "source": "Source",
+      "created": "Created",
+      "status": "Status"
+    },
+    "open": "Open",
+    "createdOn": "Created {date}",
+    "deleteConfirm": "Delete project \"{name}\"? This cannot be undone."
+  },
+  "sourceLabels": {
+    "files": "Uploaded files",
+    "google_sheet": "Google Sheets",
+    "database": "External database"
+  },
+  "create": {
+    "title": "Create new project",
+    "description": "Start a new business analysis environment.",
+    "cancel": "Cancel",
+    "back": "Back",
+    "continue": "Continue",
+    "steps": {
+      "details": "Project details",
+      "source": "Choose source",
+      "configure": "Configure",
+      "review": "Review"
+    },
+    "sourceTypes": {
+      "upload": { "label": "Upload files", "desc": "CSV, TSV, Excel, JSON, Parquet" },
+      "sheets": { "label": "Google Sheets", "desc": "Connect a spreadsheet and pick tabs" },
+      "database": { "label": "Existing database", "desc": "PostgreSQL, MySQL, MSSQL · read-only" }
+    },
+    "errors": {
+      "nameRequired": "Project name is required.",
+      "createFailed": "Could not create the project.",
+      "addAtLeastOneFile": "Add at least one file.",
+      "sheetFieldsRequired": "Both the spreadsheet URL and the service account key are required.",
+      "dbFieldsRequired": "Host, database, and username are required.",
+      "connectFailed": "Could not connect to the data source.",
+      "connectionFailed": "Connection failed."
+    },
+    "step0": {
+      "title": "Project details",
+      "description": "Tell us what this project is for. You can change this later.",
+      "nameLabel": "Project name *",
+      "namePlaceholder": "e.g. Atlas Commerce Q3"
+    },
+    "step1": {
+      "title": "Choose a data source",
+      "description": "You can connect additional sources to this project later.",
+      "creating": "Creating…"
+    },
+    "step2": {
+      "upload": {
+        "title": "Upload files",
+        "description": "Each file becomes its own table — not merged into one.",
+        "dropzoneTitle": "Drop files here or click to browse",
+        "dropzoneHint": "CSV, TSV, Excel, JSON, Parquet",
+        "filesReady": "{count, plural, one {# file} two {# files} other {# files}} ready",
+        "willBeParsed": "{size} MB · will be parsed as a separate table",
+        "arabicDetectionTitle": "Arabic text detection.",
+        "arabicDetectionBody": "If your files contain Arabic columns, the Data Cleaning Agent will detect and offer normalization automatically."
+      },
+      "sheets": {
+        "title": "Connect Google Sheets",
+        "description": "Paste a shareable link and the service account key that's been granted access. Every tab becomes its own table.",
+        "urlLabel": "Spreadsheet URL",
+        "keyLabel": "Service account key (JSON)",
+        "shareHint": "Share the spreadsheet with this service account's <code>client_email</code> before connecting."
+      },
+      "database": {
+        "title": "Connect an existing database",
+        "description": "Use a read-only credential. DAAS will never write to your database.",
+        "hostLabel": "Host",
+        "portLabel": "Port",
+        "databaseLabel": "Database",
+        "userLabel": "User (read-only)",
+        "passwordLabel": "Password",
+        "testing": "Testing…",
+        "testConnection": "Test connection",
+        "verifiedTitle": "Connection verified.",
+        "verifiedBody": "Read-only access confirmed."
+      },
+      "connecting": "Connecting…"
+    },
+    "step3": {
+      "title": "Review & create",
+      "tablesDiscovered": "{count, plural, one {# table} two {# tables} other {# tables}} discovered. Confirm to begin profiling and cleaning.",
+      "projectName": "Project name",
+      "dataSource": "Data source",
+      "primaryTable": "Primary table",
+      "tablesDiscoveredLabel": "Tables discovered",
+      "tableRowsFormat": "{name} ({rows} rows)",
+      "whatsNext": "What happens next",
+      "whatsNextBody": "The Data Cleaning Agent will profile each table, discover schema, propose relationships for your review, and generate a cleaning plan. You'll approve every consequential step.",
+      "goToWorkspace": "Go to Data Workspace"
+    }
+  }
+}

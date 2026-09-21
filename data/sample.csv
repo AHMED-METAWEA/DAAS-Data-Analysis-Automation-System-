@@ -1,0 +1,206 @@
+order_id,customer_name,email,product,category,quantity,unit_price,total_price,order_date,ship_date,region,payment_method
+ORD-1180,Amir Wilson,amir.wilson248@yahoo.com,Phone Case,Accessories,5,15.76,78.8,2024-08-26,2024-09-01,South,Cash on Delivery
+ORD-1184,James Jones,james.jones713@hotmail.com,Portable Charger,Electronics,3,31.86,95.58,2024-01-25,2024-02-06,West,Credit Card
+ORD-1114,John Mansour,john.mansour471@outlook.com,Notebook Pack (5),Office,1,14.03,14.03,2024-06-29,2024-07-04,Central,PayPal
+ORD-1169,Hassan Taylor,hassan.taylor135@company.co,Phone Case,Accessories,7,14.88,104.16,2024-03-11,2024-03-25,Central,PayPal
+ORD-1127,Sophie Ahmed,sophie.ahmed907@hotmail.com,Standing Desk,Furniture,2,586.7,1173.4,2024-08-27,2024-09-03,EAST,Credit Card
+ORD-1071,James Khalil,james.khalil871@company.co,Screen Protector,Accessories,2,10.58,21.16,2024-08-07,2024-08-20,North,Bank Transfer
+ORD-1055,Omar Ibrahim,omar.ibrahim915@gmail.com,"27"" Monitor",Electronics,7,330.31,2312.17,2024-11-08,2024-11-20,Central,Cash on Delivery
+ORD-1166,David Ali,david.ali318@company.co,Standing Desk,Furniture,7,565.77,3960.39,2024-05-07,2024-05-21,South,Credit Card
+ORD-1026,Ali Jones,ali.jones256@gmail.com,Mechanical Keyboard,Electronics,8,95.53,764.24,2024-11-28,2024-12-07,North,Credit Card
+ORD-1081,Sophie Garcia,sophie.garcia284@company.co,"27"" Monitor",Electronics,9,356.77,3210.93,2024-02-09,2024-02-23,,Bank Transfer
+ORD-1002,Dina Hassan,dina.hassan31@gmail.com,Standing Desk,Furniture,4,520.58,2082.32,2024-08-21,2024-08-22,Central,PayPal
+ORD-1028,Sara Salem,sara.salem389@gmail.com,Cable Organizer,Accessories,7,8.09,56.63,2024-10-31,2024-11-13,West,Bank Transfer
+ORD-1060,David Ahmed,david.ahmed724@yahoo.com,Desk Lamp,Office,2,22.12,44.24,2024-05-08,2024-05-17,West,Cash on Delivery
+ORD-1024,Fatima Mohamed,fatima.mohamed675@hotmail.com,"27"" Monitor",Electronics,6,344.64,2067.84,2024-06-30,2024-07-14,North,Credit Card
+ORD-1021,Nour Farouk,nour.farouk66@outlook.com,USB-C Hub,Electronics,1,50.87,,2024-03-30,2024-04-09,South,Credit Card
+ORD-1121,Amir Mansour,amir.mansour851@yahoo.com,Ergonomic Chair,Furniture,5,324.83,1624.15,2024-07-06,2024-07-19,East,Bank Transfer
+ORD-1040,Ahmed Mohamed,ahmed.mohamed78@yahoo.com,Ergonomic Chair,Furniture,9,272.15,2449.35,2024-05-23,2024-06-02,Central,PayPal
+ORD-1056,Salma Farouk,salma.farouk940@gmail.com,Wireless Mouse,Electronics,8,24.08,192.64,2024.03.20,2024-07-10,Central,Bank Transfer
+ORD-1073,Mona Jones,mona.jones725@yahoo.com,Desk Lamp,Office,7,21.04,147.28,2024-07-21,2024-08-01,  East  ,Cash on Delivery
+ORD-1030,Hassan Hassan,hassan.hassan52@company.co,Screen Protector,Accessories,8,10.0,80.0,2024-11-27,2024-12-06,South,Credit Card
+ORD-1115,Tarek Johnson,tarek.johnson602@outlook.com,USB-C Hub,Electronics,7,51.89,363.23,2024-06-26,2024-07-10,East,PayPal
+ORD-1064,Tarek Ahmed,tarek.ahmed638@company.co,Portable Charger,Electronics,1,32.43,32.43,2024-08-17,2024-08-27,North,Credit Card
+ORD-1001,Fatima Ibrahim,fatima.ibrahim760@outlook.com,Phone Case,Accessories,4,15.1,60.4,2024-10-13,2024-10-15,Central,Credit Card
+ORD-1124,John Johnson,john.johnson111@yahoo.com,Portable Charger,Electronics,8,,217.12,2024-12-09,2024-12-18,East,PayPal
+ORD-1022,David Hassan,david.hassan235@gmail.com,USB-C Hub,Electronics,1,53.59,53.59,2024-01-28,2024-02-06,South,Bank Transfer
+ORD-1109,Yasmin Williams,yasmin.williams666@gmail.com,Webcam HD,Electronics,6,64.22,385.32,2024-11-29,2024-12-08,West,Bank Transfer
+ORD-1108,Mia Jones,mia.jones16@yahoo.com,Ergonomic Chair,Furniture,7,322.25,2255.75,2024-02-29,2024-03-02,West,Bank Transfer
+ORD-1078,Ahmed Ali,ahmed.ali302@yahoo.com,Bluetooth Speaker,Electronics,,41.52,290.64,2024-04-28,2024-05-09,Central,Bank Transfer
+ORD-1167,Emma Brown,emma.brown521@outlook.com,Phone Case,Accessories,1,,15.55,2024-03-11,2024-03-15,East,Cash on Delivery
+ORD-1047,Fatima Taylor,fatima.taylor445@outlook.com,Wireless Mouse,Electronics,6,25.66,153.96,2024-07-17,2024-07-19,West,PayPal
+ORD-1080,Nour Mohamed,nour.mohamed739@yahoo.com,Laptop Stand,Accessories,6,32.34,194.04,2024-07-27,2024-08-09,South,PayPal
+ORD-1043,Dina Ibrahim,dina.ibrahim184@outlook.com,Cable Organizer,Accessories,7,9.0,63.0,2024-12-01,2024-12-13,South,Bank Transfer
+ORD-1112,Sara Khalil,sara.khalil368@outlook.com,Bluetooth Speaker,Electronics,7,37.16,260.12,2024-07-25,2024-08-01,Central,PayPal
+ORD-1120,Omar Ali,omar.ali932@outlook.com,Screen Protector,Accessories,6,10.48,62.88,2024-03-09,2024-03-13,South,Bank Transfer
+ORD-1171,Nour Khalil,nour.khalil989@hotmail.com,Ergonomic Chair,Furniture,4,292.06,1168.24,2024-08-09,2024-08-17,West,Bank Transfer
+ORD-1004,Dina Smith,dina.smith285@yahoo.com,Screen Protector,Accessories,4,10.9,43.6,2024-05-10,2024-05-12,North,Cash on Delivery
+ORD-1075,Tarek Wilson,tarek.wilson625@hotmail.com,Bluetooth Speaker,Electronics,3110,36.22,112644.2,2024-11-26,2024-12-02,South,Cash on Delivery
+ORD-1066,Hassan Williams,hassan.williams285@hotmail.com,Webcam HD,Electronics,5,64.01,320.05,2024-07-01,2024-07-02,Central,Credit Card
+ORD-1128,Mona Nasser,mona.nasser455@hotmail.com,Screen Protector,Accessories,4,10.7,,2024-02-08,2024-02-19,East,Bank Transfer
+ORD-1136,Mohamed Smith,mohamed.smith623@yahoo.com,Cable Organizer,Accessories,2,7.86,15.72,2024-08-30,2024-09-10,Central,Bank Transfer
+ORD-1009,Khaled Mansour,khaled.mansour948@company.co,Notebook Pack (5),Office,4,13.47,53.88,2024-11-23,2024-12-06,North,PayPal
+ORD-1128,Mona Nasser,mona.nasser455@hotmail.com,Screen Protector,Accessories,4,10.7,,2024-02-08,2024-02-19,East,Bank Transfer
+ORD-1120,Omar Ali,omar.ali932@outlook.com,Screen Protector,Accessories,6,10.48,62.88,2024-03-09,2024-03-13,South,Bank Transfer
+ORD-1152,Khaled Brown,khaled.brown297@gmail.com,Standing Desk,Furniture,,497.29,3481.03,2024-05-06,2024-05-09,Central,Cash on Delivery
+ORD-1035,Ali Ahmed,ali.ahmed956@outlook.com,Ergonomic Chair,Furniture,2,322.75,645.5,2024-05-23,2024-05-28,South,Cash on Delivery
+ORD-1013,Sara Mohamed,sara.mohamed157@yahoo.com,Bluetooth Speaker,Electronics,7,73506.48,147012.96,2024-05-29,2024-13-01, central ,Cash on Delivery
+ORD-1182,Ava Garcia,ava.garcia45@hotmail.com,Desk Lamp,Office,6,,128.34,2024-01-07,2024-01-13,North,Bank Transfer
+ORD-1181,Emma Ali,emma.ali537@outlook.com,Mechanical Keyboard,Electronics,2,98.15,196.3,2024-07-30,2024-08-08,Central,Credit Card
+ORD-1048,Sara Brown,sara.brown2@company.co,Laptop Stand,Accessories,9,36.31,326.79,2024-10-15,2024-10-27,South,Bank Transfer
+ORD-1017,Hassan Garcia,hassan.garcia20@gmail.com,Standing Desk,Furniture,6,591.65,3549.9,2024-11-18,2024-12-01,East,PayPal
+ORD-1097,James Williams,james.williams886@company.co,USB-C Hub,Electronics,1,51.57,51.57,2024-07-29,2024-08-06,West,Credit Card
+ORD-1076,Mona Mansour,mona.mansour349@outlook.com,"27"" Monitor",Electronics,10,364.07,3640.7,2024-04-17,2024-04-26,North,PayPal
+ORD-1150,Ahmed Garcia,ahmed.garcia765@hotmail.com,USB-C Hub,Electronics,3,46.28,138.84,2024-07-25,not_a_date,South,Bank Transfer
+ORD-1006,Hana Taylor,hana.taylor907@outlook.com,Ergonomic Chair,Furniture,10,281.53,2815.3,2024-01-28,2024-01-29,South,Bank Transfer
+ORD-1163,Amir Taylor,amir.taylor163@outlook.com,Ergonomic Chair,Furniture,6,325.07,1950.42,2024-05-30,2024-06-06,East,Credit Card
+ORD-1058,Ali Farouk,ali.farouk861@outlook.com,Notebook Pack (5),Office,9,12.95,116.55,2024-04-02,2024-04-07,West,Credit Card
+ORD-1118,William Khalil,william.khalil795@yahoo.com,Portable Charger,Electronics,10,31.8,318.0,Jan 15 2024,2024-04-06,South,Bank Transfer
+ORD-1190,Tarek Hassan,tarek.hassan745@outlook.com,Webcam HD,Electronics,10,65.97,659.7,2024-04-16,2024-04-27,North,Credit Card
+ORD-1165,Mohamed Wilson,mohamed.wilson680@yahoo.com,Webcam HD,Electronics,6,57.71,,2024-09-11,2024-09-23,West,PayPal
+ORD-1052,Tarek Nasser,tarek.nasser524@hotmail.com,Notebook Pack (5),Office,3,13.4,40.2,2024-04-20,2024-04-29,Central,Bank Transfer
+ORD-1194,Ali Farouk,ali.farouk984@gmail.com,Phone Case,Accessories,1,16.74,16.74,2024-07-12,2024-07-21,West,Credit Card
+ORD-1102,Tarek Davis,tarek.davis149@hotmail.com,"27"" Monitor",Electronics,4,379.52,1518.08,2024-07-16,2024-07-28,South,Credit Card
+ORD-1110,David Garcia,david.garcia894@company.co,Phone Case,Accessories,1,16.37,16.37,2024-04-01,2024-04-12,East,PayPal
+ORD-1172,Khaled Miller,khaled.miller541@hotmail.com,Bluetooth Speaker,Electronics,3,42.52,127.56,2024-11-07,2024-11-17,South,Bank Transfer
+ORD-1193,Tarek Johnson,tarek.johnson381@hotmail.com,Phone Case,Accessories,2,16.23,32.46,2024-07-24,2024-07-30,West,Bank Transfer
+ORD-1016,Mia Mohamed,mia.mohamed892@outlook.com,Ergonomic Chair,Furniture,9,306.53,2758.77,2024-02-29,2024-03-06,South,Credit Card
+ORD-1148,Dina Mohamed,dina.mohamed291@company.co,Webcam HD,Electronics,8,60.31,482.48,2024-04-29,2024-04-30,South,Cash on Delivery
+ORD-1177,Robert Ahmed,robert.ahmed778@hotmail.com,Screen Protector,Accessories,8,10.22,81.76,2024-12-17,2024-12-19,North,Bank Transfer
+ORD-1045,Olivia Farouk,olivia.farouk229@gmail.com,Portable Charger,Electronics,4,29.38,117.52,2024-04-18,2024-05-02,North,Bank Transfer
+ORD-1154,Ava Khalil,ava.khalil764@outlook.com,Desk Lamp,Office,4,21.75,87.0,2024-03-06,2024-03-08,Central,Credit Card
+ORD-1092,Salma Garcia,salma.garcia449@gmail.com,Ergonomic Chair,Furniture,10,272.38,2723.8,2024-06-16,2024-06-28,East,Bank Transfer
+ORD-1063,Nour Mansour,nour.mansour447@hotmail.com,Notebook Pack (5),Office,1,12.7,12.7,2024-09-16,2024-09-27,West,PayPal
+ORD-1189,Fatima Ali,fatima.ali336@outlook.com,Webcam HD,Electronics,5,59.34,296.7,2024-10-05,2024-10-12,South,Cash on Delivery
+ORD-1173,John Garcia,john.garcia896@outlook.com,Wireless Mouse,Electronics,9,28.25,254.25,2024-10-03,2024-10-17,central,Credit Card
+ORD-1195,James Mansour,james.mansour721@hotmail.com,Laptop Stand,Accessories,4,free,153.88,2024-04-20,2024-05-02,West,PayPal
+ORD-1139,Emma Mansour,emma.mansour384@yahoo.com,Webcam HD,Electronics,8,54.8,438.4,2024-11-19,2024-11-21,North,Cash on Delivery
+ORD-1159,,amir.ali318@hotmail.com,Webcam HD,Electronics,8,54.44,435.52,2024-05-23,2024-06-06,East,Credit Card
+ORD-1168,Nour Ahmed,nour.ahmed159@gmail.com,"27"" Monitor",Electronics,5,374.1,1870.5,2024-02-09,2024-02-18, central ,Credit Card
+ORD-1158,John Smith,,Portable Charger,Electronics,8933,29.8,266203.4,2024-09-02,2024-09-07,East,Credit Card
+ORD-1125,Mohamed Jones,mohamed.jones932@outlook.com,Phone Case,Accessories,7,14.76,103.32,2024-01-18,2024-01-19,East,Cash on Delivery
+ORD-1119,James Ahmed,james.ahmed644@gmail.com,Phone Case,Accessories,1,,15.38,2024-06-20,2024-06-21,Central,Bank Transfer
+ORD-1105,Hassan Nasser,hassan.nasser715@yahoo.com,Cable Organizer,Accessories,10,8.29,82.9,2024-11-28,2024-12-11,West,Credit Card
+ORD-1138,Tarek Farouk,tarek.farouk424@outlook.com,Desk Lamp,Office,8,22.04,176.32,2024-10-10,2024-10-12,East,Cash on Delivery
+ORD-1034,James Ali,james.ali10@hotmail.com,Cable Organizer,Accessories,three,9.34,93.4,2024-02-08,2024-02-10,Central,PayPal
+ORD-1083,Omar Garcia,omar.garcia106@gmail.com,Screen Protector,Accessories,10,9.56,95.6,2024-07-04,2024-07-12,East,PayPal
+ORD-1046,John Miller,john.miller410@company.co,Webcam HD,Electronics,6,65.26,391.56,2024-02-14,2024-02-19,South,Bank Transfer
+ORD-1070,Emma Williams,emma.williams407@yahoo.com,Standing Desk,Furniture,2,560.12,1120.24,2024-11-18,2024-11-29,South,Credit Card
+ORD-1149,Sara Ibrahim,sara.ibrahim210@outlook.com,Standing Desk,Furniture,4,579.4,2317.6,2024-10-23,2024-10-28,East,Bank Transfer
+ORD-1069,Yasmin Taylor,yasmin.taylor987@gmail.com,Mechanical Keyboard,Electronics,3,98.35,295.05,2024-02-11,2024-02-21,North,Bank Transfer
+ORD-1161,Olivia Wilson,olivia.wilson668@yahoo.com,Cable Organizer,Accessories,6,8.67,52.02,2024-07-13,2024-07-16,North,Cash on Delivery
+ORD-1023,Reem Nasser,reem.nasser553@yahoo.com,Phone Case,Accessories,10,16.23,162.3,2024-04-04,2024-04-17,West,Cash on Delivery
+ORD-1006,Hana Taylor,hana.taylor907@outlook.com,Ergonomic Chair,Furniture,10,281.53,2815.3,2024-01-28,2024-01-29,South,Bank Transfer
+ORD-1049,Mohamed Smith,mohamed.smith639@outlook.com,Desk Lamp,Office,2,23.49,46.98,2024-04-26,2024-05-05,East,Cash on Delivery
+ORD-1134,Mona Miller,mona.miller608@gmail.com,Bluetooth Speaker,Electronics,8,40.02,320.16,2024-08-26,2024-08-27,Central,Bank Transfer
+ORD-1062,Mona Khalil,mona.khalil772@hotmail.com,Wireless Mouse,Electronics,7,26.19,183.33,2024-10-12,15-01-2024,Central,PayPal
+ORD-1140,Sophie Johnson,sophie.johnson832@yahoo.com,USB-C Hub,Electronics,9,45.59,410.31,2024-08-06,2024-08-15,East,Credit Card
+ORD-1153,David Johnson,david.johnson91@hotmail.com,Portable Charger,Electronics,2,28.45,56.9,2024-08-16,2024-08-23,CENTRAL,Credit Card
+ORD-1185,Youssef Hassan,youssef.hassan811@yahoo.com,Laptop Stand,Accessories,1,33.71,33.71,2024-04-30,2024-05-09,West,Cash on Delivery
+ORD-1111,,mohamed.brown101@gmail.com,Screen Protector,Accessories,8,9.32,74.56,2024-04-26,2024-04-27,North,Bank Transfer
+ORD-1067,Nour Ali,nour.ali800@gmail.com,Webcam HD,Electronics,1,65.38,65.38,2024-03-18,2024-04-01,North,PayPal
+ORD-1018,Nour Wilson,nour.wilson970@gmail.com,Wireless Mouse,Electronics,2,27.2,54.4,2024-11-12,2024-11-14,Central,PayPal
+ORD-1091,Sophie Wilson,sophie.wilson944@outlook.com,Standing Desk,Furniture,8,508.67,4069.36,02-30-2024,2024-09-29,West,Bank Transfer
+ORD-1008,Mona Nasser,,Webcam HD,Electronics,2,61.3,122.6,2024-03-07,2024-03-16,South,PayPal
+ORD-1174,Mohamed Salem,mohamed.salem280@hotmail.com,Laptop Stand,Accessories,9,32.53,292.77,2024-06-18,2024-06-20,South,Cash on Delivery
+ORD-1186,Sara Nasser,sara.nasser293@outlook.com,Laptop Stand,Accessories,1,37.56,37.56,2024-05-08,2024-05-13,North,Bank Transfer
+ORD-1061,Youssef Brown,youssef.brown399@company.co,Wireless Mouse,Electronics,1,27.84,27.84,2024-10-24,2024-11-03,West,Cash on Delivery
+ORD-1147,Mohamed Mansour,mohamed.mansour454@hotmail.com,Phone Case,Accessories,8,16.33,130.64,2024-06-09,2024-06-14,South,Credit Card
+ORD-1100,Salma Ibrahim,salma.ibrahim566@hotmail.com,Laptop Stand,Accessories,2,33.07,66.14,2024-11-22,2024-11-24,West,Credit Card
+ORD-1065,Dina Ahmed,dina.ahmed888@hotmail.com,Phone Case,Accessories,3,14.55,43.65,2024-05-27,2024-06-02,South,Cash on Delivery
+ORD-1113,Layla Ali,layla.ali625@hotmail.com,Mechanical Keyboard,Electronics,10,93.29,932.9,2024-07-12,2024-07-22,South,PayPal
+ORD-1027,Salma Ibrahim,salma.ibrahim993@gmail.com,Phone Case,Accessories,4,14.92,59.68,2024-07-07,2024-07-15,South,Cash on Delivery
+ORD-1089,David Khalil,david.khalil720@hotmail.com,Laptop Stand,Accessories,??,36.31,,2024-12-24,2024-12-29,Central,PayPal
+ORD-1053,Robert Farouk,robert.farouk689@outlook.com,USB-C Hub,Electronics,4,53.06,212.24,2024-02-27,2024-02-28,North,PayPal
+ORD-1020,Salma Nasser,salma.nasser731@outlook.com,Cable Organizer,Accessories,7,9.33,65.31,2024-09-09,2024-09-15,West,Cash on Delivery
+ORD-1054,Yasmin Ali,yasmin.ali467@hotmail.com,Notebook Pack (5),Office,10,12.2,122.0,2024-09-27,2024-10-04,West,Cash on Delivery
+ORD-1041,Omar Hassan,omar.hassan316@outlook.com,Desk Lamp,,1,24.3,24.3,2024-03-22,2024-04-02,South,Credit Card
+ORD-1057,William Jones,william.jones628@company.co,Bluetooth Speaker,Electronics,7,42.63,298.41,2024-07-31,2024-08-08,South,Cash on Delivery
+ORD-1003,John Davis,john.davis430@yahoo.com,Screen Protector,Accessories,8,10.17,81.36,2024-11-10,2024-11-24,North,PayPal
+ORD-1179,Sara Farouk,sara.farouk430@company.co,USB-C Hub,Electronics,8,45.62,364.96,2024-11-20,2024-11-28,Central,Credit Card
+ORD-1015,Hana Brown,hana.brown162@hotmail.com,USB-C Hub,Electronics,1,54.53,54.53,2024-12-06,2024-12-18,East,PayPal
+ORD-1090,Fatima Davis,fatima.davis231@yahoo.com,Desk Lamp,Office,5,23.97,119.85,2024-01-28,2024-01-29,South,Bank Transfer
+ORD-1135,John Ibrahim,john.ibrahim63@hotmail.com,Notebook Pack (5),Office,7,12.8,89.6,2024-02-11,2024-02-19,West,Credit Card
+ORD-1191,John Williams,john.williams373@company.co,Phone Case,Accessories,3,17.44,52.32,2024-02-25,2024-03-10,Central,Cash on Delivery
+ORD-1192,Omar Ali,omar.ali242@outlook.com,Wireless Mouse,Electronics,6,25.38,152.28,2024-08-08,2024-08-09,Central,PayPal
+ORD-1032,Yasmin Hassan,yasmin.hassan635@gmail.com,Standing Desk,Furniture,,567.3,3971.1,2024-08-07,2024-08-16,East,Bank Transfer
+ORD-1088,Mohamed Salem,mohamed.salem3@hotmail.com,Ergonomic Chair,Furniture,,311.35,2490.8,2024-07-01,2024-07-06,North,PayPal
+ORD-1106,Sophie Garcia,sophie.garcia723@hotmail.com,Webcam HD,Electronics,7,65.85,460.95,2024-11-03,2024-11-17,South,Cash on Delivery
+ORD-1038,John Mansour,john.mansour518@hotmail.com,Phone Case,Accessories,5,17.29,86.45,2024-11-24,2024-11-25,North,Cash on Delivery
+ORD-1098,Amir Johnson,amir.johnson638@hotmail.com,"27"" Monitor",Electronics,8,368.19,2945.52,2024-03-20,2024-03-25,Central,PayPal
+ORD-1044,Olivia Mohamed,olivia.mohamed392@gmail.com,Mechanical Keyboard,Electronics,8,84.99,679.92,2024-11-13,2024-11-21,,Bank Transfer
+ORD-1123,Olivia Williams,olivia.williams15@outlook.com,USB-C Hub,Electronics,9,46.23,416.07,2024-05-23,2024-06-03,East,Cash on Delivery
+ORD-1197,Mohamed Davis,mohamed.davis556@outlook.com,Screen Protector,Accessories,,10.69,53.45,2024-10-03,2024-10-15,South,
+ORD-1059,Hana Farouk,hana.farouk279@outlook.com,Screen Protector,Accessories,6,10.78,64.68,2024-02-01,2024-02-04,South,PayPal
+ORD-1024,Fatima Mohamed,fatima.mohamed675@hotmail.com,"27"" Monitor",Electronics,6,344.64,2067.84,2024-06-30,2024-07-14,North,Credit Card
+ORD-1183,Sophie Mohamed,sophie.mohamed791@company.co,"27"" Monitor",Electronics,6,324.33,1945.98,2024-05-16,2024-05-25,East,PayPal
+ORD-1007,Ava Farouk,ava.farouk888@gmail.com,USB-C Hub,Electronics,7,47.77,334.39,2024-09-03,2024-09-17,East,PayPal
+ORD-1079,Salma Miller,salma.miller353@hotmail.com,Notebook Pack (5),Office,9,12.55,112.95,2024-09-29,2024-10-07,East,Bank Transfer
+ORD-1107,Omar Miller,omar.miller989@company.co,Wireless Mouse,,6,27.91,167.46,2024-12-05,2024-12-19,West,Credit Card
+ORD-1029,David Davis,david.davis678@hotmail.com,Desk Lamp,Office,3,21.1,63.3,2024-03-25,2024-03-26,Central,Credit Card
+ORD-1085,Olivia Wilson,olivia.wilson972@outlook.com,Mechanical Keyboard,Electronics,2,98.88,197.76,2024-02-16,2024-02-25,West,PayPal
+ORD-1095,Reem Johnson,reem.johnson419@outlook.com,USB-C Hub,Electronics,6,-,310.14,2024-11-29,2024-12-02,East,Cash on Delivery
+ORD-1005,Mona Johnson,mona.johnson619@outlook.com,USB-C Hub,Electronics,1,52.29,52.29,2024-07-27,2024-07-29,West,Credit Card
+ORD-1162,Olivia Smith,olivia.smith732@gmail.com,USB-C Hub,Electronics,9,51.45,463.05,2024-01-16,2024-01-20,West,Cash on Delivery
+ORD-1151,Khaled Hassan,khaled.hassan447@gmail.com,USB-C Hub,Electronics,8,54.2,433.6,2024-11-30,2024-12-06,Central,Cash on Delivery
+ORD-1145,,omar.ibrahim94@company.co,USB-C Hub,Electronics,4,48.75,195.0,2024-06-25,2024-07-01,South,Bank Transfer
+ORD-1126,Fatima Farouk,fatima.farouk909@company.co,USB-C Hub,Electronics,3,48.88,146.64,2024-05-24,2024-06-04,Central,Cash on Delivery
+ORD-1137,Yasmin Miller,yasmin.miller302@hotmail.com,Desk Lamp,Office,9,22.97,206.73,2024-02-08,2024-02-21,North,PayPal
+ORD-1170,Tarek Hassan,tarek.hassan421@outlook.com,Screen Protector,Accessories,4,10.93,43.72,2024-08-25,2024-08-30,West,PayPal
+ORD-1188,Olivia Miller,olivia.miller274@gmail.com,Cable Organizer,Accessories,five,7.78,54.46,2024-08-21,2024-09-04,South,Bank Transfer
+ORD-1176,Ahmed Smith,ahmed.smith954@gmail.com,"27"" Monitor",Electronics,6,370.39,2222.34,2024-02-23,2024-02-24,East,
+ORD-1077,Nour Brown,nour.brown501@company.co,USB-C Hub,,4,51.9,207.6,2024-09-07,2024-09-19,West,Cash on Delivery
+ORD-1178,Robert Ahmed,robert.ahmed562@company.co,"27"" Monitor",Electronics,9,344.62,3101.58,2024-10-28,2024-11-02,South,Bank Transfer
+ORD-1042,James Davis,james.davis906@hotmail.com,Webcam HD,Electronics,10,62.98,629.8,2024-12-25,2024-12-29,,PayPal
+ORD-1082,Mona Salem,mona.salem310@gmail.com,"27"" Monitor",Electronics,9,323.85,2914.65,2024-01-18,2024-01-19,Central,Bank Transfer
+ORD-1084,Ali Garcia,ali.garcia117@gmail.com,Wireless Mouse,Electronics,7,25.95,181.65,2024-08-12,2024-08-23,North,PayPal
+ORD-1164,John Smith,john.smith68@outlook.com,Bluetooth Speaker,Electronics,2,40.45,80.9,2024-05-30,2024-06-04,East,PayPal
+ORD-1132,Layla Mohamed,layla.mohamed677@gmail.com,Bluetooth Speaker,Electronics,3,N/A,108.33,2024-11-02,2024-11-15,South,Bank Transfer
+ORD-1156,Omar Mansour,omar.mansour203@yahoo.com,USB-C Hub,Electronics,10,46.52,465.2,2024-10-21,2024-11-01,North,PayPal
+ORD-1039,Ali Hassan,ali.hassan4@outlook.com,Portable Charger,Electronics,3,30.81,92.43,2024-04-11,2024-04-14,West,Cash on Delivery
+ORD-1117,Emma Williams,emma.williams282@gmail.com,Portable Charger,Electronics,10,32.18,321.8,2024-10-29,2024-11-10,North,Cash on Delivery
+ORD-1133,Layla Mansour,layla.mansour54@yahoo.com,Wireless Mouse,Electronics,7,26.13,182.91,2024-10-16,2024-10-18,West,Cash on Delivery
+ORD-1122,Fatima Jones,fatima.jones987@gmail.com,Bluetooth Speaker,Electronics,3,42.02,126.06,2024-03-28,2024-04-11,West,Bank Transfer
+ORD-1086,Amir Williams,amir.williams462@hotmail.com,Bluetooth Speaker,Electronics,5,42.87,214.35,2024-06-15,2024-06-20,Central,Credit Card
+ORD-1036,Salma Khalil,salma.khalil627@company.co,Portable Charger,Electronics,1,31.0,31.0,2024-08-03,2024-08-08,North,PayPal
+ORD-1010,Sara Smith,sara.smith411@outlook.com,Portable Charger,Electronics,2,28.26,56.52,2024-08-08,2024-08-20,East,PayPal
+ORD-1199,Olivia Davis,olivia.davis133@company.co,Notebook Pack (5),Office,2,11.86,23.72,2024-06-03,2024-06-15,West,Cash on Delivery
+ORD-1011,Reem Williams,reem.williams906@hotmail.com,Phone Case,Accessories,3,15.24,45.72,2024-04-05,2024-04-17,Central,Bank Transfer
+ORD-1129,Khaled Mansour,khaled.mansour195@gmail.com,Wireless Mouse,Electronics,,23.87,190.96,2024-03-23,2024-04-03,Central,Credit Card
+ORD-1198,Nour Mohamed,nour.mohamed206@yahoo.com,Ergonomic Chair,Furniture,4,317.41,1269.64,2024-01-11,2024-01-17,Central,Bank Transfer
+ORD-1131,Youssef Farouk,youssef.farouk337@yahoo.com,Standing Desk,Furniture,10,495.3,4953.0,2024-11-29,2024-12-02,South,Bank Transfer
+ORD-1155,Amir Nasser,amir.nasser928@outlook.com,Ergonomic Chair,Furniture,6,313.63,1881.78,2024-11-14,2024-11-25,South,PayPal
+ORD-1051,Salma Ibrahim,salma.ibrahim312@outlook.com,Desk Lamp,Office,4,22.18,,2024-08-13,2024-08-23,East,Cash on Delivery
+ORD-1037,Fatima Mohamed,fatima.mohamed761@company.co,Laptop Stand,Accessories,3,44722.38,89444.76,2024-08-22,2024-08-26,East,PayPal
+ORD-1200,Dina Wilson,dina.wilson76@yahoo.com,Bluetooth Speaker,Electronics,6,41.13,246.78,2024-06-23,2024-07-01,Central,Bank Transfer
+ORD-1143,Dina Davis,dina.davis998@company.co,Bluetooth Speaker,Electronics,10,41.39,413.9,2024-08-04,2024-08-05,Central,Bank Transfer
+ORD-1087,Sophie Mohamed,sophie.mohamed971@yahoo.com,Standing Desk,Furniture,4,524.1,2096.4,2024-02-01,2024-02-04,South,PayPal
+ORD-1096,Reem Khalil,reem.khalil679@hotmail.com,Screen Protector,Accessories,9,9.06,81.54,2024-02-04,2024-02-10,East,Bank Transfer
+ORD-1101,Robert Ahmed,robert.ahmed511@outlook.com,Phone Case,Accessories,9,16.65,149.85,13/25/2024,2024-06-24,West,Cash on Delivery
+ORD-1025,Khaled Smith,khaled.smith820@gmail.com,Wireless Mouse,Electronics,4,82279.58,411397.9,2024-07-27,2024-08-04,South,Cash on Delivery
+ORD-1033,Emma Smith,emma.smith245@outlook.com,"27"" Monitor",Electronics,,324.15,,2024-09-07,2024-09-12,West,Bank Transfer
+ORD-1031,Mohamed Salem,mohamed.salem71@company.co,Ergonomic Chair,Furniture,2,310.5,621.0,2024-04-01,2024-04-08,North,PayPal
+ORD-1157,John Garcia,john.garcia476@company.co,Bluetooth Speaker,Electronics,10,39.58,395.8,2024-12-24,2025-01-03,Central,Bank Transfer
+ORD-1175,Mona Ibrahim,mona.ibrahim425@gmail.com,Cable Organizer,Accessories,7,8.49,59.43,2024-04-01,2024-04-08,North,Bank Transfer
+ORD-1160,Ava Ali,ava.ali630@company.co,Phone Case,Accessories,9,15.62,140.58,2024-08-13,2024-08-22,North,Cash on Delivery
+ORD-1072,Dina Johnson,dina.johnson71@company.co,Ergonomic Chair,Furniture,6,270.75,1624.5,2024-06-12,2024-06-26,West,Credit Card
+ORD-1141,Mona Brown,mona.brown889@gmail.com,Desk Lamp,Office,5,22.95,114.75,2024-05-16,2024-05-18,Central,PayPal
+ORD-1116,Ava Garcia,ava.garcia110@yahoo.com,Desk Lamp,Office,7,22.82,159.74,2024-08-11,2024-08-16,East,Credit Card
+ORD-1130,Olivia Smith,olivia.smith250@yahoo.com,Wireless Mouse,Electronics,10,24.46,244.6,2024-11-18,2024/31/06,Central,PayPal
+ORD-1099,Hana Jones,hana.jones902@hotmail.com,Cable Organizer,Accessories,8663,7.69,66618.47,2024-09-01,2024-09-11,South,PayPal
+ORD-1019,,emma.garcia970@company.co,Mechanical Keyboard,Electronics,3,85.76,257.28,2024-12-04,2024-12-14,West,PayPal
+ORD-1074,Dina Wilson,dina.wilson275@outlook.com,Notebook Pack (5),Office,4,13.85,55.4,2024-02-03,2024-02-08,West,PayPal
+ORD-1142,Emma Garcia,emma.garcia230@gmail.com,Mechanical Keyboard,Electronics,6,96.21,577.26,2024-05-22,2024-05-24,East,PayPal
+ORD-1093,Mohamed Farouk,mohamed.farouk985@company.co,Wireless Mouse,Electronics,10,28.33,283.3,2024-10-24,2024-11-04,East,Credit Card
+ORD-1050,Khaled Khalil,khaled.khalil568@yahoo.com,Webcam HD,Electronics,4,59.04,236.16,2024-05-27,2024-06-07,South,Bank Transfer
+ORD-1144,Layla Mansour,layla.mansour720@outlook.com,Wireless Mouse,Electronics,6,TBD,151.32,2024-03-11,2024-03-25,South,Cash on Delivery
+ORD-1146,Sophie Smith,sophie.smith796@company.co,Laptop Stand,Accessories,10,32.09,320.9,2024-01-21,2024-01-24,South,Credit Card
+ORD-1014,Ali Davis,ali.davis882@gmail.com,Ergonomic Chair,Furniture,2,310.89,621.78,2024-07-27,2024-08-09,East,Bank Transfer
+ORD-1103,James Brown,james.brown349@company.co,Laptop Stand,Accessories,N/A,37.24,186.2,2024-04-19,2024-05-01,East,Cash on Delivery
+ORD-1012,Karim Brown,karim.brown920@company.co,Screen Protector,Accessories,7,9.71,,2024-02-23,2024-03-03,West,Credit Card
+ORD-1079,Salma Miller,salma.miller353@hotmail.com,Notebook Pack (5),Office,9,12.55,112.95,2024-09-29,2024-10-07,East,Bank Transfer
+ORD-1104,Omar Jones,omar.jones552@hotmail.com,Portable Charger,Electronics,6,28.98,173.88,2024-10-23,2024-11-01,West,Cash on Delivery
+ORD-1196,Omar Ali,omar.ali463@yahoo.com,USB-C Hub,Electronics,8,54.96,439.68,2024-11-10,2024-11-21,East,Bank Transfer
+ORD-1094,James Salem,james.salem482@company.co,Bluetooth Speaker,Electronics,8,43.32,346.56,2024-03-11,2024-03-21,West,Cash on Delivery
+ORD-1187,William Williams,william.williams762@hotmail.com,Desk Lamp,Office,7,21.78,152.46,2024-03-13,2024-03-21,West,Bank Transfer
+ORD-1068,Omar Garcia,omar.garcia686@gmail.com,"27"" Monitor",Electronics,10,381.33,3813.3,2024-06-29,2024-07-11,East,Bank Transfer

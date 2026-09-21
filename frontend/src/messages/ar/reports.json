@@ -1,0 +1,42 @@
+{
+  "header": {
+    "title": "التقارير والأصول المحفوظة",
+    "description": "مكتبة تضم تقارير الرؤى التجارية والتنبؤ والتسويق وتسرب العملاء المحفوظة عبر مشاريعك."
+  },
+  "refresh": "تحديث",
+  "filters": {
+    "searchPlaceholder": "البحث في التقارير…",
+    "typePlaceholder": "النوع",
+    "allTypes": "جميع الأنواع",
+    "projectPlaceholder": "المشروع",
+    "allProjects": "جميع المشاريع",
+    "countOf": "{filtered} من {total}"
+  },
+  "types": {
+    "insights": "الرؤى التجارية",
+    "forecast": "التنبؤ",
+    "marketing": "التسويق",
+    "churn": "تسرب العملاء"
+  },
+  "loading": "جارٍ تحميل تقاريرك…",
+  "errors": {
+    "loadFailed": "تعذّر تحميل التقارير.",
+    "loadReportFailed": "تعذّر تحميل هذا التقرير."
+  },
+  "empty": {
+    "noReportsTitle": "لا توجد تقارير محفوظة بعد",
+    "noMatchTitle": "لا توجد تقارير مطابقة",
+    "noReportsDescription": "أنشئ تقريرًا في الرؤى التجارية أو التنبؤ أو التسويق أو تسرب العملاء، ثم احفظه لرؤيته هنا.",
+    "noMatchDescription": "جرّب تعديل عوامل التصفية."
+  },
+  "table": {
+    "report": "التقرير",
+    "type": "النوع",
+    "project": "المشروع",
+    "saved": "تاريخ الحفظ"
+  },
+  "dialog": {
+    "defaultTitle": "التقرير",
+    "loading": "جارٍ تحميل التقرير…"
+  }
+}

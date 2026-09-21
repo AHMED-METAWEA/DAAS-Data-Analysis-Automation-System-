@@ -1,0 +1,340 @@
+{
+  "nav": {
+    "brand": "DAAS",
+    "brandSubtitle": "AI BI Operating System",
+    "links": {
+      "product": "Product",
+      "agents": "Agents",
+      "pipeline": "Pipeline",
+      "trust": "Trust",
+      "pricing": "Pricing",
+      "docs": "Docs"
+    },
+    "signIn": "Sign in",
+    "openWorkspace": "Open workspace"
+  },
+  "hero": {
+    "badge": "Multi-agent · Back-tested · Grounded",
+    "titlePrefix": "Turn business data into ",
+    "titleHighlight": "decisions you can trust.",
+    "subtitle": "From raw data to analytics, forecasts, customer intelligence, and action — powered by specialized AI agents. DAAS is an AI-native Business Intelligence Operating System for e-commerce, retail, and sales businesses.",
+    "startProject": "Start a Project",
+    "exploreDemo": "Explore Demo",
+    "noCreditCard": "No credit card required",
+    "byod": "Bring your own data",
+    "readOnly": "Read-only connections"
+  },
+  "heroPreview": {
+    "url": "daas.app / atlas-commerce-q3",
+    "live": "Live",
+    "projectName": "Atlas Commerce Q3",
+    "projectStats": "6 tables · 1.4M rows",
+    "nav": {
+      "commandCenter": "Command Center",
+      "data": "Data",
+      "visualization": "Visualization",
+      "insights": "Insights",
+      "forecasting": "Forecasting",
+      "marketing": "Marketing",
+      "churn": "Churn",
+      "reports": "Reports"
+    },
+    "commandCenterTitle": "Command Center",
+    "lastSync": "Atlas Commerce Q3 · last sync 12m ago",
+    "askPlaceholder": "Ask DAAS…",
+    "kpis": {
+      "revenue": "Revenue",
+      "orders": "Orders",
+      "growth": "Growth",
+      "aov": "AOV",
+      "customers": "Customers",
+      "atRisk": "At Risk"
+    },
+    "agentActivity": "Agent Activity",
+    "readyCount": "5 of 6 ready",
+    "states": {
+      "completed": "Completed",
+      "backTesting": "Back testing",
+      "waitingApproval": "Waiting approval"
+    },
+    "aiInsight": "AI Insight",
+    "insightBody": "Holiday peak forecast raised by <hl>8.3%</hl>. Ensemble model now predicts $2.04M for next 30 days.",
+    "groundedBacktested": "Grounded · Back-tested",
+    "forecastTitle": "Revenue Forecast · Ensemble · 15-day horizon",
+    "highConfidence": "High confidence",
+    "historyLabel": "60d history",
+    "forecastArrow": "← forecast →",
+    "horizonLabel": "15d horizon",
+    "openWorkspace": "Open workspace"
+  },
+  "trust": {
+    "eyebrow": "Built for serious business decision-making",
+    "stats": [
+      { "stat": "6", "label": "Specialized agents" },
+      { "stat": "9", "label": "Pipeline stages" },
+      { "stat": "12+", "label": "Forecast models" },
+      { "stat": "4", "label": "AI providers" },
+      { "stat": "3", "label": "DB connectors" },
+      { "stat": "100%", "label": "Grounded by default" }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "How DAAS works",
+    "title": "One operating system, end to end",
+    "body": "DAAS transforms raw business data into a complete decision workflow. Not a collection of dashboards — a coherent operating environment.",
+    "steps": {
+      "bringData": {
+        "title": "Bring your data",
+        "body": "Upload files, connect Sheets, or attach a read-only database. Multi-table projects are first-class."
+      },
+      "trustData": {
+        "title": "Trust the data",
+        "body": "Schema discovery, relationship review, AI-assisted cleaning, validation, and reconciliation — every step observable and approvable."
+      },
+      "decideConfidently": {
+        "title": "Decide with confidence",
+        "body": "Deterministic analytics, grounded insights, back-tested forecasts, churn intelligence, and exportable reports."
+      }
+    },
+    "pipelineLabel": "The full pipeline",
+    "pipeline": {
+      "dataSources": "Data Sources",
+      "schemaDiscovery": "Schema Discovery",
+      "relationshipReview": "Relationship Review",
+      "aiCleaning": "AI Cleaning",
+      "humanApproval": "Human Approval",
+      "reconciliation": "Reconciliation",
+      "projectStorage": "Project Storage",
+      "analytics": "Analytics",
+      "visualization": "Visualization",
+      "insights": "Insights",
+      "forecasting": "Forecasting",
+      "marketingIntelligence": "Marketing Intelligence",
+      "churnPrediction": "Churn Prediction",
+      "groundedReports": "Grounded Reports"
+    }
+  },
+  "agentsSection": {
+    "eyebrow": "Multi-agent operating system",
+    "title": "Six specialized agents, one workspace",
+    "body": "Each agent is a specialized capability inside one unified environment — not six disconnected applications. They share project context, computed results, and your approval checkpoints.",
+    "specializedCapability": "Specialized capability",
+    "list": {
+      "cleaning": {
+        "name": "Data Cleaning",
+        "fullName": "Data Cleaning Agent",
+        "body": "Profiles tables, generates reviewable cleaning plans, normalizes Arabic text, preserves relationship keys."
+      },
+      "visualization": {
+        "name": "Visualization",
+        "fullName": "Visualization Agent",
+        "body": "Builds the deterministic Executive Dashboard and generates charts from natural language requests."
+      },
+      "insights": {
+        "name": "Business Insights",
+        "fullName": "Business Insights Agent",
+        "body": "Produces ranked findings with evidence, business impact, confidence, and grounding status."
+      },
+      "forecasting": {
+        "name": "Forecasting",
+        "fullName": "Forecasting Agent",
+        "body": "Runs back-tested multi-model forecasts with honest confidence and a transparent model leaderboard."
+      },
+      "marketing": {
+        "name": "Marketing",
+        "fullName": "Marketing Agent",
+        "body": "Connects RFM segments, churn intelligence, and grounded campaign strategy into action."
+      },
+      "churn": {
+        "name": "Churn Prediction",
+        "fullName": "Churn Prediction Agent",
+        "body": "Scores customers by churn probability × spend to surface expected revenue at risk."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Everything inside the operating system",
+    "title": "From raw rows to grounded action",
+    "body": "Eight product surfaces, one coherent system. Each is a workspace experience — not a grid of disconnected cards.",
+    "items": {
+      "connectData": {
+        "title": "Connect your data",
+        "body": "Upload CSV, TSV, Excel, JSON, Parquet. Connect Google Sheets or any PostgreSQL, MySQL, or MSSQL database. Multi-file and multi-table projects are first-class — never assume everything becomes one file.",
+        "points": ["Drag-and-drop multi-file", "Arabic text normalization", "Read-only DB connections"]
+      },
+      "dataPipeline": {
+        "title": "Data intelligence pipeline",
+        "body": "A guided, human-in-the-loop pipeline: source → profile → schema discovery → relationships → cleaning → validation → reconciliation → save. Every stage is observable and reviewable.",
+        "points": ["9-stage pipeline", "Approval checkpoints", "Transformation log"]
+      },
+      "analytics": {
+        "title": "Analytics & visualization",
+        "body": "A deterministic Executive Dashboard with KPI band, trend, category, customer mix, seasonality, and order-value distribution. Plus an AI Chart Studio that generates charts from natural language.",
+        "points": ["Executive dashboard", "AI chart studio", "One premium visual theme"]
+      },
+      "insights": {
+        "title": "Business insights",
+        "body": "Ranked findings with supporting evidence, business impact, confidence and grounding status. Why-it-happened explanations, risks, opportunities, and prioritized recommendations.",
+        "points": ["Grounded findings", "Risk & opportunity", "Prioritized next actions"]
+      },
+      "forecasting": {
+        "title": "Transparent forecasting",
+        "body": "Multi-model forecasts with a back-test leaderboard: Ensemble, Prophet, ETS, Holt-Winters, ARIMA, Theta, Linear, Moving Average, Naive. Confidence intervals, skill vs. naive, and “Why this forecast?” narrative.",
+        "points": ["Back-tested models", "Model leaderboard", "Honest confidence"]
+      },
+      "marketing": {
+        "title": "Marketing intelligence",
+        "body": "RFM segments with revenue contribution and recommended strategy. Churn-integrated marketing, grounded campaign builder, and an ad copy studio connected to real customer evidence.",
+        "points": ["RFM segmentation", "Churn-integrated campaigns", "Ad copy studio"]
+      },
+      "churn": {
+        "title": "Churn prediction",
+        "body": "Score every customer by churn probability × customer spend = expected revenue at risk. AUC, precision, recall, validation method, and feature importance communicated clearly.",
+        "points": ["Expected revenue at risk", "Model transparency", "Retention strategy"]
+      },
+      "trust": {
+        "title": "Trust & grounded AI",
+        "body": "Every narrative is grounded in computed facts. Trust badges distinguish Grounded, Partially grounded, and Review recommended. Never fabricate confidence when validation is impossible.",
+        "points": ["Grounding badges", "Confidence transparency", "Data lineage visible"]
+      }
+    }
+  },
+  "humanLoop": {
+    "eyebrow": "Human-in-the-loop",
+    "title": "Your approval, every step that matters",
+    "body": "Consequential operations require explicit review. DAAS never silently commits relationship guesses, cleaning plans, reconciliation overrides, or AI-generated analysis actions.",
+    "items": {
+      "relationshipReview": {
+        "title": "Relationship review",
+        "body": "High-confidence relationships auto-approve. Medium requires explicit OK. Low confidence triggers manual mapping."
+      },
+      "cleaningPlans": {
+        "title": "Cleaning plans",
+        "body": "Every cleaning step shows proposed action, reason, affected columns, estimated impact, and risk level — approve, edit, or reject."
+      },
+      "reconciliationCheckpoint": {
+        "title": "Reconciliation checkpoint",
+        "body": "Orphan rates before vs. after, sample unmatched values, and tolerance gates before saving trusted data."
+      },
+      "aiActionApproval": {
+        "title": "AI action approval",
+        "body": "AI-suggested campaigns, forecasts, and reports are previewable and approvable before any action is committed."
+      }
+    }
+  },
+  "approvalPreview": {
+    "waitingApproval": "Waiting for your approval",
+    "agentName": "Marketing Intelligence Agent",
+    "title": "Proposed retention campaign",
+    "body": "Target <hl1>412 high-risk customers</hl1> with a 15% incentive over 14 days. Projected to recover <hl2>$86K of $184K</hl2> at-risk revenue.",
+    "stats": {
+      "audience": "Audience",
+      "cost": "Cost",
+      "roi": "Projected ROI"
+    },
+    "groundedEvidence": "Grounded evidence",
+    "evidence": [
+      "Churn model AUC 0.87 (rolling 90d back-test)",
+      "RFM “At Risk” segment · $248K revenue base",
+      "Historical win-back lift: 11% on similar cohort"
+    ],
+    "approve": "Approve campaign",
+    "edit": "Edit",
+    "reject": "Reject"
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "Trusted by data-driven teams",
+    "body": "Real customer stories coming soon. Below is a placeholder grid that demonstrates the testimonial layout.",
+    "quote": "Placeholder testimonial. Replace with a verified customer quote that highlights measurable business impact.",
+    "customerName": "Customer name {n}",
+    "roleCompany": "Role · Company"
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Simple, transparent plans",
+    "body": "Pricing tiers will be displayed here. The placeholder below shows the intended layout.",
+    "mostPopular": "Most popular",
+    "tiers": [
+      {
+        "name": "Starter",
+        "price": "—",
+        "tagline": "For solo analysts & founders",
+        "features": ["1 project", "5 data sources", "Standard agents", "7-day history"],
+        "cta": "Start free",
+        "featured": false
+      },
+      {
+        "name": "Business",
+        "price": "—",
+        "tagline": "For growing e-commerce teams",
+        "features": ["Unlimited projects", "All data connectors", "All 6 agents", "Back-tested forecasts", "Grounded reports"],
+        "cta": "Start trial",
+        "featured": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "—",
+        "tagline": "For multi-team operations",
+        "features": ["Everything in Business", "SSO & RBAC", "Custom model routing", "Audit logs", "Dedicated support"],
+        "cta": "Contact us",
+        "featured": false
+      }
+    ],
+    "footnote": "Pricing will be finalized at general availability. The current workspace is a product experience preview."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "body": "Everything you need to understand how DAAS thinks about data, AI, and trust.",
+    "items": [
+      {
+        "q": "Is DAAS a chatbot?",
+        "a": "No. DAAS is a multi-agent Business Intelligence Operating System. AI exists contextually across the workspace — to explain KPIs, generate charts, interpret forecasts, and recommend actions — but never as the primary interface."
+      },
+      {
+        "q": "How does DAAS avoid inventing business numbers?",
+        "a": "All metrics, KPIs, forecasts, churn probabilities, and customer segments are computed by deterministic analytics and ML engines. AI explains, interprets, and recommends. The interface always distinguishes computed facts from AI interpretation, with visible confidence and grounding status."
+      },
+      {
+        "q": "What data sources are supported?",
+        "a": "CSV, TSV, Excel, JSON, and Parquet file uploads, Google Sheets, and PostgreSQL, MySQL, and MSSQL databases. Multi-file and multi-table projects are first-class. Database connections should always use read-only credentials."
+      },
+      {
+        "q": "How are forecasts validated?",
+        "a": "Every forecast runs out-of-sample back-tests across multiple folds. The model leaderboard shows MAPE, sMAPE, and skill vs. naive for each candidate. If a forecast cannot be validated, the system says so explicitly rather than fabricating confidence."
+      },
+      {
+        "q": "Does DAAS handle Arabic business data?",
+        "a": "Yes. The Data Cleaning Agent detects and normalizes Arabic text — unifying alef variants, applying Unicode normalization, and handling mixed Arabic/Latin fields gracefully."
+      },
+      {
+        "q": "What does “human-in-the-loop” mean in practice?",
+        "a": "Important operations require explicit approval: relationship detection, cleaning plans, reconciliation issues, data saving, and AI-generated analysis actions. The product surfaces review checkpoints clearly and never silently commits consequential changes."
+      }
+    ]
+  },
+  "finalCta": {
+    "titlePrefix": "Start turning data into ",
+    "titleHighlight": "decisions.",
+    "body": "Create your first project, connect your data, and let the agents do the heavy lifting — with your approval at every step."
+  },
+  "footer": {
+    "tagline": "The AI Business Intelligence Operating System. From raw data to grounded decisions.",
+    "copyright": "© 2025 DAAS. All rights reserved.",
+    "columns": [
+      {
+        "title": "Product",
+        "links": ["Command Center", "Data Workspace", "Visualization", "Forecasting", "Churn Prediction"]
+      },
+      {
+        "title": "Agents",
+        "links": ["Data Cleaning", "Visualization", "Insights", "Forecasting", "Marketing", "Churn"]
+      },
+      {
+        "title": "Resources",
+        "links": ["Documentation", "API reference", "Changelog", "Status", "Security"]
+      }
+    ]
+  }
+}

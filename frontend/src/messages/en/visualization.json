@@ -1,0 +1,41 @@
+{
+  "title": "Visualization",
+  "description": "Deterministic executive dashboard and AI-powered chart studio. One consistent premium theme.",
+  "modes": {
+    "executive": "Executive Dashboard",
+    "studio": "AI Chart Studio"
+  },
+  "export": "Export",
+  "computed": "Computed",
+  "executive": {
+    "loadingLabel": "Building your executive dashboard…",
+    "loadingStage": "Computing KPIs and charts from your saved data",
+    "errorFallback": "Could not load the dashboard.",
+    "emptyTitle": "No dashboard yet",
+    "emptyDescription": "Save a cleaned dataset from the Data Workspace to see your executive dashboard here.",
+    "liveBadge": "Live · deterministic",
+    "rowsRevenueBasis": "{rows} rows · revenue basis: {revenueLabel}"
+  },
+  "studio": {
+    "samplePrompts": [
+      "Show monthly revenue by product category",
+      "Compare customer acquisition vs. retention",
+      "Plot order value distribution by region",
+      "Visualize top 10 products by growth"
+    ],
+    "describeTitle": "Describe a chart",
+    "describeDescription": "Natural language in. Premium chart out. The agent grounds every chart in your project data.",
+    "placeholder": "e.g. Show monthly revenue by product category",
+    "hint": "⌘+Enter to generate",
+    "generating": "Generating…",
+    "generate": "Generate",
+    "tryPrompt": "Try a prompt",
+    "autoGenerating": "Generating dashboard…",
+    "autoGenerate": "Auto-generate a full chart set",
+    "emptyTitle": "Describe a chart to begin",
+    "emptyDescription": "The AI Chart Studio turns natural language into grounded, exportable visualizations.",
+    "loadingLabel": "Generating chart…",
+    "loadingStage": "Parsing request · querying project data · composing visualization",
+    "yourRequest": "Your request"
+  }
+}

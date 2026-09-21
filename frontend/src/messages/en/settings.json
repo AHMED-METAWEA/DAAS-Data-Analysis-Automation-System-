@@ -1,0 +1,130 @@
+{
+  "title": "Settings",
+  "description": "Configure AI providers, data storage, appearance, and agent defaults.",
+  "saveChanges": "Save changes",
+  "nav": {
+    "providers": "AI Providers",
+    "storage": "Data & Storage",
+    "appearance": "Appearance",
+    "advanced": "Advanced"
+  },
+  "storage": {
+    "title": "Data & Storage",
+    "description": "Project database, external connections, and cache status.",
+    "items": {
+      "database": {
+        "label": "Project database (PostgreSQL)",
+        "value": "Connected · 14.2 GB / 50 GB",
+        "detail": "prod-db.atlas.internal:5432"
+      },
+      "projectHealth": {
+        "label": "Project storage health",
+        "value": "Healthy",
+        "detail": "6 projects · 1.42M rows committed"
+      },
+      "cache": {
+        "label": "Cache (memory)",
+        "value": "Active · 412 MB",
+        "detail": "Auto-eviction at 80%"
+      },
+      "sheets": {
+        "label": "Google Sheets connector",
+        "value": "Connected",
+        "detail": "OAuth · last refresh 12m ago"
+      },
+      "externalDb": {
+        "label": "External database (PostgreSQL)",
+        "value": "Read-only · verified",
+        "detail": "Production PostgreSQL · SELECT-only grants"
+      }
+    },
+    "usageTitle": "Storage usage",
+    "projects": {
+      "atlas": { "label": "Atlas Commerce Q3", "size": "4.2 GB" },
+      "northwind": { "label": "Northwind Operations", "size": "6.8 GB" },
+      "meridian": { "label": "Meridian Retail GCC", "size": "1.4 GB" },
+      "orion": { "label": "Orion D2C Subscription", "size": "1.8 GB" }
+    }
+  },
+  "appearance": {
+    "title": "Appearance",
+    "description": "Choose the theme that works best for you.",
+    "theme": {
+      "label": "Theme",
+      "description": "Applies instantly across the whole workspace",
+      "dark": "Dark",
+      "light": "Light"
+    },
+    "density": {
+      "label": "Density",
+      "description": "Compact for power users, comfortable for review",
+      "options": {
+        "compact": "Compact",
+        "comfortable": "Comfortable",
+        "spacious": "Spacious"
+      }
+    },
+    "reduceMotion": {
+      "label": "Reduce motion",
+      "description": "Disable non-essential animations"
+    },
+    "activityBar": {
+      "label": "Show agent activity bar",
+      "description": "Top progress bar during agent processing"
+    }
+  },
+  "advanced": {
+    "agentConfig": {
+      "title": "Agent configuration",
+      "description": "Defaults applied across all projects unless overridden per-project.",
+      "autoApprove": {
+        "label": "Auto-approve high-confidence relationships",
+        "description": "≥ 0.90 confidence · still logged for review"
+      },
+      "autoRunCleaning": {
+        "label": "Auto-run cleaning after schema discovery",
+        "description": "Generates plan but does NOT execute without approval"
+      },
+      "pauseOnRegression": {
+        "label": "Pause agents on data quality regression",
+        "description": "Stops downstream analytics if quality drops below 80"
+      }
+    },
+    "forecastDefaults": {
+      "title": "Forecast defaults",
+      "description": "Applied when a new forecast is created.",
+      "granularity": {
+        "label": "Default granularity",
+        "options": { "daily": "Daily", "weekly": "Weekly", "monthly": "Monthly" }
+      },
+      "horizon": {
+        "label": "Default horizon",
+        "options": { "7": "7 days", "15": "15 days", "30": "30 days", "90": "90 days" }
+      },
+      "model": {
+        "label": "Default model",
+        "options": { "auto": "Auto (Ensemble)", "prophet": "Prophet", "ets": "ETS", "hw": "Holt-Winters" }
+      },
+      "backtestFolds": {
+        "label": "Back-test folds",
+        "options": { "3": "3 folds", "6": "6 folds", "12": "12 folds" }
+      }
+    },
+    "dataSync": {
+      "title": "Data sync preferences",
+      "description": "How often connected sources are re-synced.",
+      "items": {
+        "sheets": "Google Sheets",
+        "database": "Database (PostgreSQL)",
+        "files": "Uploaded files"
+      },
+      "options": {
+        "manual-only": "Manual only",
+        "5-minutes": "5 minutes",
+        "15-minutes": "15 minutes",
+        "1-hour": "1 hour",
+        "daily": "Daily"
+      }
+    }
+  }
+}

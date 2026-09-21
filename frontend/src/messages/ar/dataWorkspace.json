@@ -1,0 +1,215 @@
+{
+  "stages": {
+    "source": "المصدر",
+    "profile": "التحليل الإحصائي",
+    "discover": "الاكتشاف",
+    "relationships": "العلاقات",
+    "clean": "التنظيف",
+    "validate": "التحقق",
+    "reconcile": "التسوية",
+    "save": "الحفظ"
+  },
+  "header": {
+    "title": "مساحة عمل البيانات",
+    "tablesCount": "{count, plural, one {# جدول} two {# جدولان} other {# جداول}} · الجدول الأساسي: {primary}",
+    "savedBadge": "تم الحفظ في المشروع"
+  },
+  "sidebar": {
+    "tablesLabel": "الجداول",
+    "primaryBadge": "أساسي"
+  },
+  "empty": {
+    "title": "لا توجد بيانات متصلة بعد",
+    "description": "ارفع ملفات، أو اتصل بجوجل شيتس، أو اربط قاعدة بيانات من مشروع لبدء خط أنابيب التنظيف.",
+    "action": "الذهاب إلى المشاريع"
+  },
+  "common": {
+    "passed": "ناجح",
+    "failed": "فاشل",
+    "yes": "نعم",
+    "no": "لا",
+    "blocked": "محظور",
+    "rowsColumns": "{rows, plural, one {# صف} two {# صفان} other {# صفوف}} · {columns, plural, one {# عمود} two {# عمودان} other {# أعمدة}}"
+  },
+  "source": {
+    "title": "اتصال المصدر",
+    "description": "الجداول المكتشفة من البيانات التي ربطتها بهذا المشروع.",
+    "discoverButton": "اكتشاف المخطط",
+    "detectedTitle": "الجداول المكتشفة",
+    "primaryBadge": "أساسي",
+    "parsedBadge": "تم التحليل"
+  },
+  "profile": {
+    "title": "تحليل البيانات",
+    "columnProfileFor": "تحليل الأعمدة لجدول {table}.",
+    "profilingDescription": "جارٍ التحليل…",
+    "analyzingLabel": "جارٍ تحليل الأعمدة…",
+    "statisticalProfileOf": "التحليل الإحصائي لجدول {table}.",
+    "notRunYet": "لم يتم تشغيل التحليل بعد.",
+    "statisticalProfileComputed": "التحليل الإحصائي لجدول {table}، محسوب بواسطة وكيل التحليل.",
+    "metrics": {
+      "rows": "الصفوف",
+      "columns": "الأعمدة",
+      "duplicateRows": "الصفوف المكررة",
+      "missingTotal": "القيم المفقودة (الإجمالي)",
+      "typeMismatches": "عدم تطابق الأنواع"
+    },
+    "columnProfileTitle": "تحليل الأعمدة · {table}",
+    "table": {
+      "column": "العمود",
+      "type": "النوع",
+      "inferredRole": "الدور المستنتج",
+      "missing": "المفقود",
+      "unique": "الفريد",
+      "sample": "عينة"
+    },
+    "relationshipKeyBadge": "مفتاح علاقة"
+  },
+  "discover": {
+    "title": "اكتشاف المخطط",
+    "idleDescription": "امسح جميع الجداول واستنتج علاقات المفتاح الأساسي/الخارجي.",
+    "scanningLabel": "جارٍ مسح الجداول وتقييم العلاقات المرشحة…",
+    "scanningStage": "قد يستغرق هذا بعض الوقت إذا احتاجت مفاتيح غامضة إلى تصعيد بالذكاء الاصطناعي.",
+    "runPrompt": "شغّل اكتشاف المخطط لرصد العلاقات بين جداولك.",
+    "runButton": "تشغيل اكتشاف المخطط",
+    "resultDescription": "قام DAAS بمسح جميع الجداول وتقييم العلاقات المرشحة.",
+    "reviewButton": "مراجعة العلاقات",
+    "tablesScannedTitle": "الجداول الممسوحة",
+    "candidatesByMethodTitle": "المرشحات حسب طريقة الاكتشاف",
+    "relationCount": "{count, plural, one {# علاقة} two {# علاقتان} other {# علاقات}}",
+    "noCandidates": "لم يتم العثور على علاقات مرشحة تلقائيًا — هذا متوقع لمشروع بجدول واحد.",
+    "manualReviewLabel": "تحتاج مراجعة يدوية",
+    "manualReviewBody": "حصلت {count, plural, one {# علاقة} two {# علاقتان} other {# علاقات}} على درجة أقل من حد الثقة المطلوب، وتحتاج إلى ربط يدوي قبل استخدامها."
+  },
+  "relationships": {
+    "title": "مراجعة العلاقات",
+    "needDiscoveryDescription": "شغّل اكتشاف المخطط أولاً لرؤية العلاقات المرشحة.",
+    "goToDiscoverButton": "الذهاب إلى الاكتشاف",
+    "description": "العلاقات المكتشفة بين الجداول. اعتمد أو ارفض كل واحدة، أو أضف علاقة بنفسك إذا فاتها المسح التلقائي.",
+    "continueButton": "المتابعة إلى التنظيف",
+    "savingButton": "جارٍ الحفظ…",
+    "saveButton": "حفظ القرارات ({count} معتمدة)",
+    "savedBadge": "تم حفظ العلاقات في المشروع",
+    "form": {
+      "title": "إضافة علاقة يدويًا",
+      "description": "تعرف أن جدولين مرتبطان لكن المسح التلقائي فاته؟ عرّف ذلك هنا — تُضاف كمعتمدة فورًا، ويمكنك رفضها أو حذفها لاحقًا أدناه.",
+      "tableA": "الجدول أ",
+      "columnA": "العمود أ",
+      "tableB": "الجدول ب",
+      "columnB": "العمود ب",
+      "columnPlaceholder": "العمود",
+      "selectPlaceholder": "اختر",
+      "addButton": "إضافة علاقة",
+      "sameColumnWarning": "لا يمكن ربط عمود بنفسه.",
+      "duplicateWarning": "هذه العلاقة موجودة بالفعل في القائمة أدناه.",
+      "manualReasoning": "أُضيفت يدويًا — لم يقيّمها المسح التلقائي."
+    },
+    "diagram": {
+      "title": "مخطط الجداول",
+      "description": "اسحب الجداول لإعادة ترتيبها. انقر على وصلة لاعتمادها أو رفضها — تبقى متزامنة مع القائمة أدناه."
+    },
+    "noneFound": "لم يتم العثور على أي علاقات مرشحة تلقائيًا. أضف واحدة يدويًا أعلاه إذا كنت تعلم أن جدولين مرتبطان، أو تابع بدون أي علاقة إذا كانت جداول هذا المشروع مستقلة فعلاً.",
+    "manualYouBadge": "يدوي · أنت",
+    "approvedBadge": "معتمدة",
+    "rejectedBadge": "مرفوضة",
+    "approveButton": "اعتماد",
+    "rejectButton": "رفض",
+    "removeButton": "حذف"
+  },
+  "clean": {
+    "title": "خطة التنظيف",
+    "generateDescription": "أنشئ خطة تنظيف بالذكاء الاصطناعي لجدول {table}.",
+    "generatingLabel": "جارٍ التحليل وإنشاء خطة التنظيف…",
+    "generateButton": "إنشاء خطة التنظيف",
+    "editDescription": "خطة التنظيف التي أنشأها الذكاء الاصطناعي لجدول {table}. عدّلها أدناه قبل التنفيذ إذا لزم الأمر.",
+    "saveEditsButton": "حفظ التعديلات",
+    "executingLabel": "جارٍ التنظيف…",
+    "executeButton": "تنفيذ التنظيف",
+    "planTitle": "خطة التنظيف",
+    "planSubtitle": "احذف أي خطوة لا تريدها، أو أضف خطوتك الخاصة — سيبدي الذكاء الاصطناعي رأيه في أي شيء تضيفه.",
+    "noStepsYet": "لا توجد خطوات في هذه الخطة بعد.",
+    "manualBadge": "خطوتك",
+    "addStepLabel": "إضافة خطوة",
+    "addStepPlaceholder": "مثال: حدّ القيم الشاذة في `order_value` عند المئين 99",
+    "addStepButton": "إضافة",
+    "opinionLoading": "جارٍ الحصول على رأي الذكاء الاصطناعي في هذه الخطوة…",
+    "alreadyCleanTitle": "هذا الجدول يبدو نظيفًا بالفعل",
+    "alreadyCleanBody": "راجع الذكاء الاصطناعي جدول {table} ولم يجد قيمًا مفقودة أو صفوفًا مكررة أو قيمًا نائبة أو تعارضًا في الأنواع — لم تُنشأ أي خطوات تنظيف. يمكنك إضافة خطوة يدويًا أدناه، أو ببساطة تنفيذ التأكيد والمتابعة.",
+    "metrics": {
+      "result": "النتيجة",
+      "retries": "المحاولات",
+      "rowsAfter": "الصفوف بعد التنظيف",
+      "transformations": "التحويلات"
+    },
+    "logTitle": "سجل التحويلات",
+    "noLogLines": "لم يتم تسجيل أي أسطر في السجل.",
+    "otherTablesTitle": "الجداول الأخرى في هذا المشروع",
+    "cleanRemainingButton": "تنظيف الجداول المتبقية تلقائيًا",
+    "cleaningRemainingLabel": "جارٍ التنظيف…",
+    "notRunYet": "لم يتم التشغيل بعد. تم تنظيف الجدول الأساسي فقط حتى الآن.",
+    "continueButton": "المتابعة إلى التحقق",
+    "customStepBadge": "خطوة مخصصة"
+  },
+  "validate": {
+    "title": "التحقق",
+    "description": "فحوصات التكامل المرجعي، وتفرّد المفتاح الأساسي، واتساق أنواع البيانات، والصفوف المكررة قبل الحفظ.",
+    "runButton": "تشغيل فحص التكامل",
+    "checkingButton": "جارٍ الفحص…",
+    "notReadyLabel": "ليس جاهزًا بعد",
+    "notReadyBody": "نظّف الجدول الأساسي والجداول المتبقية (راجع مرحلة التنظيف) قبل تشغيل فحص التكامل.",
+    "overallResult": "النتيجة الإجمالية",
+    "primaryKeyIssues": "مشاكل المفتاح الأساسي",
+    "duplicateRowIssues": "مشاكل الصفوف المكررة",
+    "dtypeWarnings": "تحذيرات نوع البيانات",
+    "blockedBody": "علاقة واحدة أو أكثر تحتوي على مفاتيح خارجية يتيمة كان القيد الحقيقي سيرفضها، أو مفتاح أساسي به تكرارات/قيم فارغة. عالج هذه المشاكل قبل الحفظ.",
+    "continueButton": "المتابعة إلى التسوية"
+  },
+  "reconcile": {
+    "title": "التسوية",
+    "description": "فحوصات معدل السجلات اليتيمة قبل/بعد لكل علاقة معتمدة بين الجداول.",
+    "noChecks": "لا توجد فحوصات تسوية لعرضها — هذا المشروع لا يحتوي على علاقات بين جداول لتسويتها (أو لم يتم تشغيل \"تنظيف الجداول المتبقية\" بعد من مرحلة التنظيف).",
+    "continueButton": "المتابعة إلى الحفظ",
+    "withinTolerance": "ضمن الحد المقبول",
+    "needsReview": "تحتاج مراجعة",
+    "orphanRateBefore": "معدل السجلات اليتيمة قبل",
+    "orphanRateAfter": "معدل السجلات اليتيمة بعد"
+  },
+  "save": {
+    "title": "الحفظ في المشروع",
+    "description": "تُحفظ البيانات الموثوقة والمُسوّاة في مخطط Postgres الخاص بالمشروع. بعد الحفظ، يمكن للوكلاء اللاحقين بدء العمل.",
+    "savedTitle": "تم الحفظ في المشروع",
+    "schemaHolds": "المخطط <code>{schema}</code> يحتوي الآن على {count, plural, one {# جدول} two {# جدولان} other {# جداول}}.",
+    "tablesCommitted": "الجداول المحفوظة",
+    "tableNames": "أسماء الجداول",
+    "schemaLabel": "المخطط",
+    "readyTitle": "جاهز لحفظ البيانات الموثوقة",
+    "integrityRequiredTitle": "يلزم التحقق من التكامل أولاً",
+    "allGatesPassed": "اجتازت جميع بوابات التحقق.",
+    "runValidateFirst": "شغّل مرحلة التحقق واجتز فحوصات التكامل قبل الحفظ.",
+    "commitButton": "الحفظ في المشروع",
+    "savingButton": "جارٍ الحفظ…"
+  },
+  "context": {
+    "activeContext": "السياق النشط",
+    "stageLabel": "المرحلة:",
+    "lastCleaningResult": "آخر نتيجة تنظيف",
+    "statusLabel": "الحالة",
+    "rowsAfterLabel": "الصفوف بعد التنظيف",
+    "retriesLabel": "المحاولات",
+    "integrityTitle": "التكامل",
+    "passedLabel": "ناجح",
+    "activeAgent": "الوكيل النشط",
+    "agentName": "وكيل تنظيف البيانات"
+  },
+  "errors": {
+    "discoverFailed": "فشل اكتشاف المخطط",
+    "relationshipsFailed": "تعذّر حفظ قرارات العلاقات",
+    "planFailed": "تعذّر توليد خطة التنظيف",
+    "editPlanFailed": "تعذّر حفظ تعديلاتك على الخطة",
+    "cleanFailed": "فشل التنظيف",
+    "cleanRemainingFailed": "تعذّر تنظيف الجداول المتبقية",
+    "opinionFailed": "تعذّر الحصول على رأي الذكاء الاصطناعي حول هذه الخطوة",
+    "integrityFailed": "فشل فحص التكامل",
+    "saveFailed": "تعذّر الحفظ إلى المشروع"
+  }
+}

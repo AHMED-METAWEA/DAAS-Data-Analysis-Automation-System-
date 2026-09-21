@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_cost,base_price
+SKU-1004,House Blend 1kg,Coffee Beans,17.5,32.0
+SKU-1006,Cold Brew Bottle 1L,Coffee Beans,4.8,9.9
+SKU-1011,Milk Frother,Equipment,12.0,call for price
+SKU-1007,Espresso Machine Duo,Equipment,280.0,TBD
+SKU-1015,Cleaning Tablets,Accessories,3.2,9.0
+SKU-1020,Office Bulk Subscription,Subscription,44.0,79.0
+SKU-1016,Vanilla Syrup 500ml,N/A,3.0,8.5
+SKU-1010,Pour-Over Kit,Equipment,19.5,42.0
+SKU-1019,Roaster's Choice Subscription,Subscription,11.0,24.0
+SKU-1005 ,Decaf Swiss Water 250g,Coffee Beans,9.1,15.0
+SKU-1012,Reusable Travel Cup,Accessories,6.5,18.0
+SKU-1001 ,Ethiopia Yirgacheffe 250g,Coffee Beans,8.2,14.5
+SKU-1009,French Press 1L,Equipment,15.0,34.0
+SKU-1003,Brazil Santos 250g,Coffee Beans,6.3,11.5
+SKU-1008,Burr Grinder Pro,Equipment,74.0,129.0
+SKU-1002,Colombia Supremo 250g,Coffee Beans,7.4,13.0
+SKU-1013,Paper Filters (100),Accessories,2.4,7.5
+SKU-1014,Ceramic Mug,Accessories,4.1,12.0
+SKU-1018,Tasting Sampler Set,Gifts,13.5,27.0
+SKU-1017,Coffee Gift Box,Gifts,21.0,39.0

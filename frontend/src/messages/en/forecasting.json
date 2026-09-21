@@ -1,0 +1,125 @@
+{
+  "header": {
+    "title": "Forecasting",
+    "description": "Back-tested multi-model forecasts with honest confidence. Never fabricates certainty."
+  },
+  "rerun": "Re-run",
+  "reportTitle": "Forecast — {metrics}",
+  "controls": {
+    "targetMetric": "Target metric",
+    "loadingMetrics": "Loading…",
+    "selectMetric": "Select metric",
+    "model": "Model",
+    "modelAuto": "Auto (Ensemble)",
+    "horizonDays": "{days} days",
+    "run": "Run forecast",
+    "running": "Running…"
+  },
+  "granularityOptions": {
+    "native": "Native",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly"
+  },
+  "errors": {
+    "loadMetrics": "Could not load forecastable metrics for this project.",
+    "generateForecast": "Could not generate the forecast."
+  },
+  "emptyMetrics": "No forecastable time-series metric was found in this project's saved data — forecasting needs a date column plus at least one numeric column with enough history.",
+  "loading": {
+    "label": "Back-testing candidate models and generating your forecast…",
+    "stage": "This can take a moment — several models are being cross-validated."
+  },
+  "notForecastable": "This data could not be forecast.",
+  "chart": {
+    "title": "{metric} forecast · next {horizon} days · {frequency}",
+    "subtitle": "{periods} {granularity} periods trained · model: {model}"
+  },
+  "stats": {
+    "forecastLabel": "Forecast ({horizon}d)",
+    "vsCurrent": "{sign}{percent}% vs. current",
+    "backtestMase": "Back-test MASE",
+    "mapeSub": "MAPE {mape}% · <1.0 beats naive",
+    "horizonTotal": "Total ({horizon}d)",
+    "horizonAverage": "Average ({horizon}d)",
+    "range": "{level}% range {lower}–{upper}",
+    "vsPrevious": "vs. previous {horizon}d",
+    "previousWas": "Previously {value}",
+    "skillSub": "vs. best naive baseline",
+    "coverage": "{level}% band coverage",
+    "calibrated": "Well calibrated",
+    "approximate": "Approximate — treat range loosely"
+  },
+  "leaderboard": {
+    "title": "Model leaderboard",
+    "subtitle": "Out-of-sample back-test · ranked by MASE",
+    "modelsCount": "{count} models",
+    "columns": {
+      "model": "Model",
+      "folds": "Folds"
+    },
+    "noHistory": "Not enough history to back-test candidate models for this metric."
+  },
+  "ensemble": {
+    "title": "Ensemble composition",
+    "weight": "Weight:"
+  },
+  "evaluation": {
+    "title": "Evaluation"
+  },
+  "why": {
+    "title": "Why this forecast?",
+    "impact": "{impact} impact"
+  },
+  "risksActions": {
+    "title": "Risks & actions",
+    "risks": "Risks",
+    "opportunities": "Opportunities",
+    "recommendedActions": "Recommended actions"
+  },
+  "common": {
+    "selectedModel": "Selected model",
+    "mase": "MASE",
+    "mape": "MAPE",
+    "mae": "MAE",
+    "rmse": "RMSE",
+    "skillVsNaive": "Skill vs. naive",
+    "confidence": "Confidence",
+    "notBackTested": "Not back-tested",
+    "backTested": "Back-tested",
+    "horizon": "Horizon",
+    "granularity": "Granularity",
+    "trainingPeriods": "Training periods",
+    "lowerBetter": "Lower is better",
+    "signalVsNoise": "Signal vs. noise",
+    "fittedScale": "Fitted on scale"
+  },
+  "reliability": {
+    "reliable": "Reliable",
+    "indicative": "Indicative only",
+    "unreliable": "Not reliable",
+    "unknown": "Not assessed",
+    "tryGranularity": "Try {granularity}"
+  },
+  "drift": {
+    "title": "Live performance"
+  },
+  "verdict": {
+    "strong": "(strong signal)",
+    "moderate": "(moderate signal)",
+    "weak": "(weak signal)",
+    "noise-dominated": "(mostly noise)",
+    "unknown": ""
+  },
+  "dataQuality": {
+    "title": "Data quality",
+    "filled": "{count} period(s) ({share}%) had no records — {how}",
+    "asZero": "treated as zero",
+    "interpolated": "interpolated",
+    "droppedPartial": "Incomplete {kinds} bucket(s) dropped — a partial period is not a low period",
+    "anomalies": "{count} anomalous period(s) capped for fitting ({dates})",
+    "levelShift": "A sustained level shift was detected ({score} pooled SD) — earlier data describes a different regime",
+    "intermittent": "Demand is intermittent (frequent zero periods) — percentage errors are unreliable here",
+    "anomaliesNoDates": "{count} anomalous period(s) capped for fitting"
+  }
+}

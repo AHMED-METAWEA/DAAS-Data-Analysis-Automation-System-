@@ -1,0 +1,16 @@
+{
+  "roleTag": {
+    "pk": "PK",
+    "fk": "FK",
+    "both": "PK/FK"
+  },
+  "node": {
+    "primaryBadge": "primary",
+    "rowsCols": "{rows, plural, one {# row} two {# rows} other {# rows}} · {cols, plural, one {# col} two {# cols} other {# cols}}"
+  },
+  "legend": {
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "lowConfidence": "Lower confidence — worth a look"
+  }
+}

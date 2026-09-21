@@ -1,0 +1,10 @@
+{
+  "loading": "جارٍ العمل…",
+  "somethingWrong": "حدث خطأ ما",
+  "tryAgain": "حاول مرة أخرى",
+  "noResults": "لا توجد نتائج",
+  "explainChart": "اشرح هذا الرسم البياني",
+  "explainChartTitle": "ما يوضحه هذا الرسم البياني",
+  "explaining": "جارٍ قراءة الرسم البياني…",
+  "explainError": "تعذر إنشاء شرح لهذا الرسم البياني."
+}

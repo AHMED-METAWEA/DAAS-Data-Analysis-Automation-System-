@@ -1,0 +1,130 @@
+{
+  "header": {
+    "title": "Marketing Intelligence",
+    "description": "RFM segmentation, churn-risk overlay, and grounded campaign strategy.",
+    "reanalyze": "Re-analyze"
+  },
+  "brief": {
+    "title": "Marketing brief",
+    "description": "Tell us your goal and constraints — the strategy will be grounded in this project's real RFM segments and KPIs.",
+    "primaryObjective": "Primary objective",
+    "budgetLabel": "Budget",
+    "budgetPlaceholder": "e.g. $5,000 / month",
+    "brandVoiceLabel": "Brand voice",
+    "brandVoicePlaceholder": "e.g. Friendly, premium, playful…",
+    "allowedChannels": "Allowed channels",
+    "additionalContext": "Additional context",
+    "additionalContextPlaceholder": "Anything else the strategy should account for…",
+    "useForecast": "Ground strategy in the latest forecast",
+    "useForecastHint": "(run a forecast first)",
+    "useChurn": "Ground strategy in the latest churn analysis",
+    "useChurnHint": "(run churn analysis first)",
+    "analyzing": "Analyzing…",
+    "runAnalysis": "Run analysis"
+  },
+  "loading": {
+    "label": "Analyzing customers…",
+    "stage": "Computing RFM segments, churn overlay, and KPIs"
+  },
+  "error": {
+    "runFailed": "Could not run the marketing analysis."
+  },
+  "objectives": {
+    "revenueGrowth": "Revenue growth",
+    "customerRetention": "Customer retention",
+    "winBack": "Win-back / reactivation",
+    "newAcquisition": "New customer acquisition",
+    "loyaltyAdvocacy": "Loyalty & advocacy",
+    "maximiseAov": "Maximise AOV"
+  },
+  "channels": {
+    "email": "Email",
+    "sms": "SMS",
+    "paidSocial": "Paid social",
+    "searchAds": "Search ads",
+    "push": "Push",
+    "retargeting": "Retargeting",
+    "influencer": "Influencer",
+    "contentSeo": "Content / SEO",
+    "affiliate": "Affiliate"
+  },
+  "kpis": {
+    "repeatRate": "Repeat purchase rate",
+    "avgCustomerValue": "Avg. customer value",
+    "aov": "Average order value",
+    "churnRiskRfm": "Churn risk (RFM)"
+  },
+  "tabs": {
+    "segments": "Segments",
+    "churn": "Churn overlay",
+    "strategy": "Strategy",
+    "campaign": "Campaign builder",
+    "copy": "Ad copy"
+  },
+  "segments": {
+    "unavailable": "RFM segmentation isn't available for this project's data.",
+    "summary": "{count} customers · {revenue} total revenue · snapshot: {snapshot}",
+    "notAvailable": "n/a",
+    "avg": "avg {value}",
+    "pctOfRev": "{pct}% of revenue"
+  },
+  "churn": {
+    "unavailable": "Churn analysis isn't available for this project's data.",
+    "highRiskCustomers": "High-risk customers",
+    "acrossAllSegments": "Across all segments",
+    "expectedRevenueAtRisk": "Expected revenue at risk",
+    "overModelHorizon": "Over the model's horizon",
+    "modelAuc": "Model AUC",
+    "bySegmentTitle": "Churn risk by RFM segment",
+    "segmentStats": "{scored} scored · avg prob {prob}<risk>{highRisk} high-risk ({pct}%)</risk>",
+    "noBreakdown": "No segment breakdown available.",
+    "highRiskAudience": "High-risk audience ({count})",
+    "mediumRiskAudience": "Medium-risk audience ({count})"
+  },
+  "strategy": {
+    "askHeading": "Ask the marketing agent",
+    "reportTitle": "Marketing Strategy",
+    "thinking": "Thinking…",
+    "chatPlaceholder": "Refine the strategy, ask for copy variations, or drill into a segment…"
+  },
+  "campaign": {
+    "title": "Campaign plan",
+    "description": "Generated from the brief above, grounded in the computed RFM segments and KPIs.",
+    "designing": "Designing…",
+    "generate": "Generate campaign plan",
+    "generateError": "Could not generate the campaign plan.",
+    "noCampaigns": "No campaigns generated.",
+    "planSummary": "Plan summary:",
+    "table": {
+      "campaign": "Campaign",
+      "segment": "Segment",
+      "channel": "Channel",
+      "budgetPct": "Budget %",
+      "priority": "Priority"
+    },
+    "offer": "Offer:",
+    "angle": "Angle:",
+    "expectedImpact": "Expected impact:"
+  },
+  "adCopy": {
+    "noSegments": "No customer segments available to write copy for.",
+    "generateHeading": "Generate ad copy",
+    "generateDescription": "Channel-ready copy grounded in the real segment stats.",
+    "segmentLabel": "Segment",
+    "channelLabel": "Channel",
+    "platformLabel": "Platform",
+    "offerLabel": "Offer / hook",
+    "offerPlaceholder": "E.g. '15% off your next order'",
+    "writing": "Writing…",
+    "generate": "Generate",
+    "generateError": "Could not generate ad copy.",
+    "generationFailed": "Copy generation failed: {error}",
+    "headlines": "Headlines / subject lines",
+    "bodyCopy": "Body copy",
+    "ctasLabel": "CTAs · Email · SMS",
+    "grounded": "Grounded",
+    "ctas": "CTAs:",
+    "emailSubject": "Email subject:",
+    "preview": "Preview:"
+  }
+}

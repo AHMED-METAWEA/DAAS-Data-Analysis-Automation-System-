@@ -1,0 +1,58 @@
+{
+  "title": "Business Insights",
+  "description": "A decision brief built from your project's saved data — every figure is computed by the engine and inserted into the text, never written by the model.",
+  "reanalyze": "Re-analyze",
+  "verification": {
+    "title": "How these numbers were produced",
+    "fromEngine": "{count} inserted by the calculation engine",
+    "typed": "{count} written by the model, {verified} verified against computed values",
+    "corrected": "One correction pass was applied",
+    "problemsTitle": "Could not be traced",
+    "figuresTitle": "Figure audit",
+    "figuresSubtitle": "Every number the report was allowed to state, and exactly how it was calculated.",
+    "showFigures": "Show all {count} figures and their formulas",
+    "hideFigures": "Hide figure audit",
+    "colFigure": "Figure",
+    "colValue": "Value",
+    "colHow": "How it was calculated",
+    "scenarioTag": "scenario",
+    "scenarioNote": "Exact arithmetic under a stated assumption — not a forecast.",
+    "period": "Period"
+  },
+  "priorities": {
+    "title": "What matters most, ranked by money at stake",
+    "subtitle": "This ordering is computed from your data, not chosen by the model.",
+    "atStake": "at stake",
+    "whichSegment": "Which segment?"
+  },
+  "blindSpots": {
+    "title": "What this data cannot tell you",
+    "subtitle": "Stated so an absence of data is never read as an absence of a problem."
+  },
+  "context": {
+    "title": "Business context",
+    "description": "Optional, but it helps the agent pick the right report style and prioritize what matters to you.",
+    "industryLabel": "Industry",
+    "industryPlaceholder": "e.g. E-commerce, Retail, Cafe",
+    "goalLabel": "Goal",
+    "goalPlaceholder": "e.g. Understand what's driving revenue",
+    "additionalLabel": "Additional context",
+    "additionalPlaceholder": "Anything else the analyst should know…",
+    "generating": "Generating report…",
+    "generate": "Generate Insights Report"
+  },
+  "loading": {
+    "label": "Running analytics engine and generating your report…",
+    "stage": "This can take a moment for larger datasets."
+  },
+  "errorFallback": "Could not generate the report.",
+  "dashboard": {
+    "chartsTitle": "Supporting charts",
+    "computed": "Computed"
+  },
+  "chat": {
+    "title": "Ask about this report",
+    "thinking": "Thinking…",
+    "placeholder": "Ask a follow-up question…"
+  }
+}

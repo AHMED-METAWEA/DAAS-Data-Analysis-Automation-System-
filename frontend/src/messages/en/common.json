@@ -1,0 +1,10 @@
+{
+  "loading": "Working…",
+  "somethingWrong": "Something went wrong",
+  "tryAgain": "Try again",
+  "noResults": "No results",
+  "explainChart": "Explain this chart",
+  "explainChartTitle": "What this chart shows",
+  "explaining": "Reading the chart…",
+  "explainError": "Couldn't generate an explanation for this chart."
+}

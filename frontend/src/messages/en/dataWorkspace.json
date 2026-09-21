@@ -1,0 +1,215 @@
+{
+  "stages": {
+    "source": "Source",
+    "profile": "Profile",
+    "discover": "Discover",
+    "relationships": "Relationships",
+    "clean": "Clean",
+    "validate": "Validate",
+    "reconcile": "Reconcile",
+    "save": "Save"
+  },
+  "header": {
+    "title": "Data Workspace",
+    "tablesCount": "{count, plural, one {# table} two {# tables} other {# tables}} · primary: {primary}",
+    "savedBadge": "Saved to project"
+  },
+  "sidebar": {
+    "tablesLabel": "Tables",
+    "primaryBadge": "primary"
+  },
+  "empty": {
+    "title": "No data connected yet",
+    "description": "Upload files, connect Google Sheets, or link a database from a project to start the cleaning pipeline.",
+    "action": "Go to Projects"
+  },
+  "common": {
+    "passed": "Passed",
+    "failed": "Failed",
+    "yes": "Yes",
+    "no": "No",
+    "blocked": "Blocked",
+    "rowsColumns": "{rows, plural, one {# row} two {# rows} other {# rows}} · {columns, plural, one {# column} two {# columns} other {# columns}}"
+  },
+  "source": {
+    "title": "Source connection",
+    "description": "Tables detected from the data you connected to this project.",
+    "discoverButton": "Discover schema",
+    "detectedTitle": "Detected tables",
+    "primaryBadge": "Primary",
+    "parsedBadge": "Parsed"
+  },
+  "profile": {
+    "title": "Data profiling",
+    "columnProfileFor": "Column profile for {table}.",
+    "profilingDescription": "Profiling…",
+    "analyzingLabel": "Analyzing columns…",
+    "statisticalProfileOf": "Statistical profile of {table}.",
+    "notRunYet": "Profile hasn't run yet.",
+    "statisticalProfileComputed": "Statistical profile of {table}, computed by the profiler agent.",
+    "metrics": {
+      "rows": "Rows",
+      "columns": "Columns",
+      "duplicateRows": "Duplicate rows",
+      "missingTotal": "Missing (total)",
+      "typeMismatches": "Type mismatches"
+    },
+    "columnProfileTitle": "Column profile · {table}",
+    "table": {
+      "column": "Column",
+      "type": "Type",
+      "inferredRole": "Inferred role",
+      "missing": "Missing",
+      "unique": "Unique",
+      "sample": "Sample"
+    },
+    "relationshipKeyBadge": "relationship key"
+  },
+  "discover": {
+    "title": "Schema discovery",
+    "idleDescription": "Scan all tables and infer foreign-key/primary-key relationships.",
+    "scanningLabel": "Scanning tables and scoring candidate relationships…",
+    "scanningStage": "This can take a moment if ambiguous keys need AI escalation.",
+    "runPrompt": "Run schema discovery to detect relationships between your tables.",
+    "runButton": "Run schema discovery",
+    "resultDescription": "DAAS has scanned all tables and scored candidate relationships.",
+    "reviewButton": "Review relationships",
+    "tablesScannedTitle": "Tables scanned",
+    "candidatesByMethodTitle": "Candidates by detection method",
+    "relationCount": "{count, plural, one {# relation} two {# relations} other {# relations}}",
+    "noCandidates": "No candidate relationships found — this is expected for a single-table project.",
+    "manualReviewLabel": "Manual review needed",
+    "manualReviewBody": "{count, plural, one {# relationship} two {# relationships} other {# relationships}} scored below confident thresholds and need manual mapping before they can be used."
+  },
+  "relationships": {
+    "title": "Relationship review",
+    "needDiscoveryDescription": "Run schema discovery first to see candidate relationships.",
+    "goToDiscoverButton": "Go to Discover",
+    "description": "Detected relationships between tables. Approve or reject each, or add one yourself if the automatic scan missed it.",
+    "continueButton": "Continue to cleaning",
+    "savingButton": "Saving…",
+    "saveButton": "Save decisions ({count} approved)",
+    "savedBadge": "Relationships saved to project",
+    "form": {
+      "title": "Add a relationship manually",
+      "description": "Know two tables are related but the automatic scan missed it? Define it here — it's added as approved immediately, and you can still reject or remove it below.",
+      "tableA": "Table A",
+      "columnA": "Column A",
+      "tableB": "Table B",
+      "columnB": "Column B",
+      "columnPlaceholder": "Column",
+      "selectPlaceholder": "Select",
+      "addButton": "Add relationship",
+      "sameColumnWarning": "A column can't be related to itself.",
+      "duplicateWarning": "This relationship is already in the list below.",
+      "manualReasoning": "Added manually — not scored by the automatic scan."
+    },
+    "diagram": {
+      "title": "Schema diagram",
+      "description": "Drag tables to rearrange. Click a connection to approve or reject it — it stays in sync with the list below."
+    },
+    "noneFound": "No candidate relationships were found automatically. Add one manually above if you know two tables are related, or continue without any if this project's tables are truly independent.",
+    "manualYouBadge": "Manual · you",
+    "approvedBadge": "Approved",
+    "rejectedBadge": "Rejected",
+    "approveButton": "Approve",
+    "rejectButton": "Reject",
+    "removeButton": "Remove"
+  },
+  "clean": {
+    "title": "Cleaning plan",
+    "generateDescription": "Generate an AI cleaning plan for {table}.",
+    "generatingLabel": "Profiling and generating a cleaning plan…",
+    "generateButton": "Generate cleaning plan",
+    "editDescription": "AI-generated cleaning plan for {table}. Edit it below before executing, if needed.",
+    "saveEditsButton": "Save edits",
+    "executingLabel": "Cleaning…",
+    "executeButton": "Execute cleaning",
+    "planTitle": "Cleaning plan",
+    "planSubtitle": "Remove any step you don't want, or add your own — the AI will give its opinion on anything you add.",
+    "noStepsYet": "No steps in this plan yet.",
+    "manualBadge": "Your step",
+    "addStepLabel": "Add a step",
+    "addStepPlaceholder": "e.g. Cap outliers in `order_value` at the 99th percentile",
+    "addStepButton": "Add",
+    "opinionLoading": "Getting the AI's opinion on this step…",
+    "alreadyCleanTitle": "This table already looks clean",
+    "alreadyCleanBody": "The AI reviewed {table} and found no missing values, duplicates, placeholder values, or type mismatches — no cleaning steps were generated. You can still add one manually below, or just execute to confirm and move on.",
+    "metrics": {
+      "result": "Result",
+      "retries": "Retries",
+      "rowsAfter": "Rows after",
+      "transformations": "Transformations"
+    },
+    "logTitle": "Transformation log",
+    "noLogLines": "No log lines were captured.",
+    "otherTablesTitle": "Other tables in this project",
+    "cleanRemainingButton": "Clean remaining tables automatically",
+    "cleaningRemainingLabel": "Cleaning…",
+    "notRunYet": "Not run yet. Only the primary table has been cleaned so far.",
+    "continueButton": "Continue to validation",
+    "customStepBadge": "Custom step"
+  },
+  "validate": {
+    "title": "Validation",
+    "description": "Referential integrity, primary-key uniqueness, dtype consistency, and duplicate-row checks before saving.",
+    "runButton": "Run integrity check",
+    "checkingButton": "Checking…",
+    "notReadyLabel": "Not ready yet",
+    "notReadyBody": "Clean the primary table and the remaining tables (see the Clean stage) before running integrity validation.",
+    "overallResult": "Overall result",
+    "primaryKeyIssues": "Primary-key issues",
+    "duplicateRowIssues": "Duplicate-row issues",
+    "dtypeWarnings": "Dtype warnings",
+    "blockedBody": "One or more relationships have orphaned foreign keys that a real constraint would reject, or a primary key has duplicates/nulls. Resolve these before saving.",
+    "continueButton": "Continue to reconciliation"
+  },
+  "reconcile": {
+    "title": "Reconciliation",
+    "description": "Before/after orphan-rate checks for every approved cross-table relationship.",
+    "noChecks": "No reconciliation checks to show — this project has no cross-table relationships to reconcile (or \"Clean remaining tables\" hasn't been run yet from the Clean stage).",
+    "continueButton": "Continue to save",
+    "withinTolerance": "Within tolerance",
+    "needsReview": "Needs review",
+    "orphanRateBefore": "Orphan rate before",
+    "orphanRateAfter": "Orphan rate after"
+  },
+  "save": {
+    "title": "Save to project",
+    "description": "Trusted, reconciled data is committed to the project's Postgres schema. Once saved, downstream agents can begin work.",
+    "savedTitle": "Saved to project",
+    "schemaHolds": "Schema <code>{schema}</code> now holds {count, plural, one {# table} two {# tables} other {# tables}}.",
+    "tablesCommitted": "Tables committed",
+    "tableNames": "Table names",
+    "schemaLabel": "Schema",
+    "readyTitle": "Ready to save trusted data",
+    "integrityRequiredTitle": "Integrity validation required first",
+    "allGatesPassed": "All validation gates passed.",
+    "runValidateFirst": "Run the Validate stage and pass integrity checks before saving.",
+    "commitButton": "Commit to project",
+    "savingButton": "Saving…"
+  },
+  "context": {
+    "activeContext": "Active context",
+    "stageLabel": "Stage:",
+    "lastCleaningResult": "Last cleaning result",
+    "statusLabel": "Status",
+    "rowsAfterLabel": "Rows after",
+    "retriesLabel": "Retries",
+    "integrityTitle": "Integrity",
+    "passedLabel": "Passed",
+    "activeAgent": "Active agent",
+    "agentName": "Data Cleaning Agent"
+  },
+  "errors": {
+    "discoverFailed": "Schema discovery failed",
+    "relationshipsFailed": "Could not save relationship decisions",
+    "planFailed": "Could not generate the cleaning plan",
+    "editPlanFailed": "Could not save your plan edits",
+    "cleanFailed": "Cleaning failed",
+    "cleanRemainingFailed": "Could not clean the remaining tables",
+    "opinionFailed": "Could not get the AI's opinion on that step",
+    "integrityFailed": "Integrity check failed",
+    "saveFailed": "Could not save to the project"
+  }
+}

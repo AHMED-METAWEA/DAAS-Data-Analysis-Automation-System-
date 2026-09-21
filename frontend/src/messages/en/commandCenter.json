@@ -1,0 +1,29 @@
+{
+  "title": "Command Center",
+  "description": "Business snapshot and a grounded assistant for this project.",
+  "askDaas": "Ask DAAS",
+  "connectData": "Connect data",
+  "emptyTitle": "Create your first project",
+  "emptyDescription": "DAAS needs a project — with data ingested, cleaned, and saved — before there's anything to show here.",
+  "createProject": "Create a project",
+  "noProjectSelected": "No project selected",
+  "rowsColumns": "{rows} rows · {columns} columns",
+  "businessSnapshot": "Business Snapshot",
+  "computingSnapshot": "Computing snapshot…",
+  "computedFromSavedData": "Computed from this project's saved data",
+  "snapshotLoadError": "Could not load the business snapshot.",
+  "workspaces": "Workspaces",
+  "quickLinks": {
+    "data": "Data Workspace",
+    "visualization": "Visualization",
+    "insights": "Business Insights",
+    "forecasting": "Forecasting",
+    "marketing": "Marketing",
+    "churn": "Churn Prediction"
+  },
+  "copilotPromo": {
+    "title": "Analyst Copilot",
+    "description": "Ask a natural-language business question — it's routed automatically to the right specialist agent (visualization, insights, forecasting, marketing, or churn).",
+    "openButton": "Open Copilot"
+  }
+}

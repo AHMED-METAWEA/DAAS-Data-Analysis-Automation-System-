@@ -1,0 +1,92 @@
+{
+  "header": {
+    "title": "Account",
+    "description": "Your profile, security, and API access credentials."
+  },
+  "nav": {
+    "profile": "Profile",
+    "organization": "Organization",
+    "security": "Security",
+    "apiKeys": "API keys",
+    "activity": "Activity log",
+    "billing": "Plan & billing"
+  },
+  "profile": {
+    "loading": "Loading profile…",
+    "loadFailed": "Could not load your profile.",
+    "title": "Profile",
+    "description": "How you appear across the DAAS workspace.",
+    "fullName": "Full name",
+    "email": "Email",
+    "emailHint": "Email changes aren't supported yet.",
+    "role": "Role",
+    "roles": { "owner": "Owner", "admin": "Admin", "analyst": "Analyst", "viewer": "Viewer" },
+    "timezone": "Timezone",
+    "timezonePlaceholder": "Select timezone",
+    "organizationLabel": "Organization",
+    "organizationPlaceholder": "Company or team name",
+    "shortBio": "Short bio",
+    "saveFailed": "Could not save your profile changes.",
+    "signOut": "Sign out",
+    "saved": "Saved",
+    "saveChanges": "Save changes"
+  },
+  "organization": {
+    "title": "Team & access",
+    "futureReady": "Future-ready",
+    "description": "Multi-user workspaces, invites, roles, and SSO aren't implemented yet — this is a single-user account today. The <field>Organization</field> field on your Profile is a free-text label, not a shared workspace.",
+    "comingSoonTitle": "Team invites coming soon",
+    "comingSoonBody": "This surface is shown as a placeholder and does not imply supported backend functionality. Multi-user collaboration will ship with SSO."
+  },
+  "security": {
+    "title": "Security",
+    "description": "Password and account protection.",
+    "changePassword": "Change password",
+    "currentPasswordPlaceholder": "Current password",
+    "newPasswordPlaceholder": "New password (min 8 characters)",
+    "updatePassword": "Update password",
+    "updateFailed": "Could not update your password.",
+    "passwordUpdated": "Password updated.",
+    "twoFactor": "Two-factor authentication",
+    "notConfigured": "Not yet configured",
+    "twoFactorBody": "Not implemented in this build.",
+    "activeSessions": "Active sessions",
+    "sessionsBody": "Sign-in tokens are stateless JWTs today, so individual sessions can't be listed or revoked. A per-session refresh-token table would be needed to support this."
+  },
+  "apiKeys": {
+    "title": "API keys",
+    "namePlaceholder": "Key name…",
+    "generateButton": "Generate new key",
+    "description": "Use API keys to integrate DAAS with your data pipelines. Keys never expire but can be revoked.",
+    "treatLikePasswords": "Treat keys like passwords.",
+    "treatLikePasswordsBody": "The full key is shown once, right after you generate it, and never again — only the short prefix is kept afterward. Never commit them to source control.",
+    "loading": "Loading API keys…",
+    "loadFailed": "Could not load API keys.",
+    "noKeys": "No API keys yet.",
+    "revokedBadge": "Revoked",
+    "createdOn": "Created {date}",
+    "lastUsedOn": "Last used {date}",
+    "neverUsed": "Never used",
+    "revokeConfirmTitle": "Revoke this API key?",
+    "revokeConfirmBody": "Any pipeline or integration using {prefix}… will stop working immediately. This cannot be undone.",
+    "cancel": "Cancel",
+    "revokeButton": "Revoke key",
+    "dialogTitle": "Your new API key",
+    "dialogDescription": "Copy it now — for security, it won't be shown again after you close this dialog.",
+    "done": "Done"
+  },
+  "activity": {
+    "title": "Activity log",
+    "notConfigured": "Not yet configured",
+    "description": "There is no audit-log table in this build yet, so recent actions can't be listed here.",
+    "notTrackedTitle": "Activity history isn't tracked yet",
+    "notTrackedBody": "A persisted audit-log table would be needed to show real account and project activity here."
+  },
+  "billing": {
+    "title": "Plan & billing",
+    "futureReady": "Future-ready",
+    "description": "Billing isn't implemented yet — this deployment has no plans, usage limits, or invoices.",
+    "noBillingTitle": "No billing configured",
+    "noBillingBody": "Pricing and plans will be finalized at general availability."
+  }
+}

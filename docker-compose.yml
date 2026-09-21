@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: smart_analyst_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${PG_USER:-postgres}
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-postgres}
+      POSTGRES_DB: ${PG_DBNAME:-smart_analyst}
+    ports:
+      # Host port defaults to 5433, not 5432 — this machine already has a
+      # native PostgreSQL service bound to 5432; this avoids colliding with it.
+      - "${PG_PORT:-5433}:5432"
+    volumes:
+      - smart_analyst_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PG_USER:-postgres}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  smart_analyst_pgdata:
+    driver: local

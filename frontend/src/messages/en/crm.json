@@ -1,0 +1,168 @@
+{
+  "header": {
+    "title": "CRM",
+    "description": "Stored customer state — one row per customer per snapshot, shared by the Marketing and Churn agents."
+  },
+  "noProject": {
+    "title": "No project selected",
+    "body": "Pick a project from the sidebar to see its customer book."
+  },
+  "empty": {
+    "title": "No customer state yet",
+    "body": "Build the first snapshot to turn this project's transactions into a customer book."
+  },
+  "loading": {
+    "label": "Loading customer state",
+    "stage": "Reading the latest snapshot"
+  },
+  "errors": {
+    "portfolioFailed": "Could not load the customer portfolio."
+  },
+  "refresh": {
+    "run": "Build snapshot",
+    "rerun": "Refresh",
+    "building": "Building…",
+    "horizon": "CLV horizon",
+    "horizonDays": "{days} days",
+    "scoreChurn": "Score churn risk",
+    "scoreChurnOn": "Fits a churn model as part of the refresh — slower, but every customer gets a risk tier and a value at risk.",
+    "scoreChurnOff": "Observed and derived layers only — RFM, lifecycle and spend. Fast, but no risk scores.",
+    "result": "{customers} customers stored for {date} in {ms} ms.",
+    "status": {
+      "success": "Success",
+      "partial": "Partial",
+      "failed": "Failed",
+      "skipped": "Skipped"
+    }
+  },
+  "kpis": {
+    "customers": "Customers",
+    "customersSub": "As of {date}",
+    "bookValue": "Book value",
+    "bookValueSub": "{count} with spend recorded",
+    "valueAtRisk": "Value at risk",
+    "valueAtRiskSub": "{count} customers priced",
+    "avgRisk": "Avg churn risk",
+    "avgRiskSub": "{count} customers scored",
+    "snapshots": "Snapshots",
+    "snapshotsSub": "Latest via {trigger}"
+  },
+  "tabs": {
+    "portfolio": "Portfolio",
+    "customers": "Customers",
+    "prioritisation": "Prioritisation",
+    "history": "Snapshots"
+  },
+  "distribution": {
+    "risk": "By risk tier",
+    "riskSub": "Predicted — churn model output",
+    "noRisk": "No risk scores in this snapshot.",
+    "stage": "By lifecycle stage",
+    "stageSub": "Derived — a printable rule over observed behaviour",
+    "noStage": "No lifecycle stages in this snapshot.",
+    "segment": "By RFM segment",
+    "segmentSub": "Derived — the same quintiles the Marketing agent uses",
+    "noSegment": "No RFM segments in this snapshot."
+  },
+  "coverage": {
+    "title": "Provenance",
+    "subtitle": "Every number in the customer book is observed, derived, or predicted — and the page says which.",
+    "observed": "Observed",
+    "observedNote": "Measured arithmetically from the transactions.",
+    "predictedRisk": "Predicted · risk",
+    "predictedRiskNote": "Churn model output. Missing when the model could not fit.",
+    "predictedClv": "Predicted · CLV",
+    "predictedClvNote": "Expected future value over the chosen horizon."
+  },
+  "filters": {
+    "search": "Search",
+    "searchPlaceholder": "Name or customer ID…",
+    "tier": "Risk tier",
+    "anyTier": "Any tier",
+    "stage": "Lifecycle",
+    "anyStage": "Any stage",
+    "segment": "RFM segment",
+    "anySegment": "Any segment",
+    "sortBy": "Sort by"
+  },
+  "columns": {
+    "customer": "Customer",
+    "segment": "Segment",
+    "stage": "Lifecycle",
+    "tier": "Tier",
+    "risk": "Churn risk",
+    "spend": "Historical spend",
+    "clv": "Predicted CLV",
+    "valueAtRisk": "Value at risk",
+    "recency": "Days since order",
+    "orders": "Orders"
+  },
+  "table": {
+    "title": "Customer book",
+    "subtitle": "{total} customers in this snapshot · click a row for the full profile",
+    "exportCsv": "Export CSV",
+    "loading": "Loading customers",
+    "noMatches": "No customers match these filters.",
+    "showing": "Showing {from}–{to} of {total}",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "comparison": {
+    "loading": "Comparing rankings",
+    "title": "Who would you actually call?",
+    "subtitle": "The top {n} customers ranked by churn risk alone, against the top {n} ranked by value at risk — both read from the same stored snapshot, so the two lists provably describe the same customers at the same moment.",
+    "byRisk": "Ranked by risk only",
+    "byRiskSub": "Highest churn probability first",
+    "byValue": "Ranked by value at risk",
+    "byValueSub": "Probability × customer value",
+    "valueCovered": "Value covered",
+    "uplift": "Uplift",
+    "overlap": "Shared names",
+    "explainer": "Prioritising by value at risk instead of probability alone changes {missed} of the names on the call list. Value at risk is priced on {basis}.",
+    "basisClv": "predicted CLV",
+    "basisMonetary": "historical spend"
+  },
+  "snapshots": {
+    "title": "Snapshot history",
+    "subtitle": "Customer state is versioned by date — which is what makes \"was this customer riskier last month?\" answerable.",
+    "loading": "Loading snapshots",
+    "none": "No snapshots stored yet.",
+    "days": "{days} d",
+    "columns": {
+      "date": "Snapshot date",
+      "trigger": "Trigger",
+      "status": "Status",
+      "customers": "Customers",
+      "rows": "Source rows",
+      "history": "History span",
+      "duration": "Duration"
+    },
+    "triggers": {
+      "manual": "Manual",
+      "churn_run": "Churn run",
+      "scheduled": "Scheduled"
+    }
+  },
+  "detail": {
+    "loading": "Loading customer profile",
+    "spend": "Historical spend",
+    "orders": "Orders",
+    "aov": "Avg order value",
+    "recency": "Last order",
+    "daysAgo": "{days} d ago",
+    "tenure": "Tenure",
+    "days": "{days} d",
+    "churnProbability": "Churn probability",
+    "clv": "Predicted CLV",
+    "valueAtRisk": "Value at risk",
+    "rfmTitle": "RFM component scores",
+    "recencyScore": "Recency",
+    "frequencyScore": "Frequency",
+    "monetaryScore": "Monetary",
+    "driversTitle": "What drives this customer's risk",
+    "noDrivers": "Nothing measurably drives this customer's risk.",
+    "notExplained": "No explanation computed — churn explains only the highest-risk customers it displays.",
+    "timelineTitle": "How this customer has moved",
+    "timelineSingle": "Only one snapshot so far. Build another to see this customer's trajectory."
+  }
+}

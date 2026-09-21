@@ -1,0 +1,94 @@
+{
+  "header": {
+    "title": "التنبؤ بتسرب العملاء",
+    "description": "ذكاء الاحتفاظ بالعملاء — تقييم المخاطر، الإيرادات المتوقع تعرّضها للخطر، واستراتيجية احتفاظ مدعومة بالبيانات."
+  },
+  "rerun": "إعادة التشغيل",
+  "controls": {
+    "horizon": "أفق تسرب العملاء",
+    "horizonDays": "{days} يومًا",
+    "run": "تشغيل تحليل التسرب",
+    "analyzing": "جارٍ التحليل…"
+  },
+  "loading": {
+    "label": "جارٍ هندسة الميزات وتدريب نموذج التسرب…",
+    "stage": "يتم تدريب مصنّف معزز التدرج واختباره تاريخيًا خارج الزمن."
+  },
+  "errors": {
+    "analysisFailed": "فشل تحليل تسرب العملاء.",
+    "retentionPlanFailed": "تعذّر إنشاء خطة الاحتفاظ."
+  },
+  "notAvailable": "تحليل تسرب العملاء غير متاح لهذه البيانات.",
+  "kpis": {
+    "customersAnalyzed": "العملاء الذين تم تحليلهم",
+    "customersAnalyzedSub": "كامل القاعدة النشطة",
+    "highRisk": "مرتفع الخطورة",
+    "highRiskSub": "{percent}% من القاعدة",
+    "expectedRevAtRisk": "الإيرادات المتوقع تعرّضها للخطر",
+    "expectedRevAtRiskSub": "خلال {days} يومًا القادمة",
+    "modelAuc": "AUC للنموذج",
+    "validation": "التحقق",
+    "cutoffs": "{count} نقطة قطع"
+  },
+  "riskDistribution": {
+    "title": "توزيع المخاطر",
+    "low": "خطورة منخفضة",
+    "medium": "خطورة متوسطة",
+    "high": "خطورة مرتفعة",
+    "percentOfCustomers": "{percent}% من العملاء",
+    "scoredBy": "تم تقييم الخطورة بواسطة {model} · أفق {days} يومًا · لقطة بتاريخ {date}",
+    "defaultModel": "نموذج التسرب"
+  },
+  "modelIntelligence": {
+    "title": "ذكاء النموذج",
+    "model": "النموذج",
+    "auc": "AUC",
+    "precision": "الدقة",
+    "recall": "الاستدعاء",
+    "f1": "F1",
+    "baseChurnRate": "معدل التسرب الأساسي",
+    "calibrated": "معايَر",
+    "yes": "نعم",
+    "no": "لا",
+    "backTestedOutOfTime": "مُختبر تاريخيًا خارج الزمن",
+    "notBackTested": "لم يُختبر تاريخيًا"
+  },
+  "highRiskTable": {
+    "title": "العملاء الأعلى خطورة",
+    "rankedByValue": "مرتّبون حسب القيمة المتوقعة المعرّضة للخطر = احتمالية التسرب × الإنفاق التاريخي",
+    "rankedByProbability": "مرتّبون حسب احتمالية التسرب",
+    "customersCount": "{count} عميل",
+    "exportCsv": "تصدير CSV",
+    "columns": {
+      "customer": "العميل",
+      "tier": "الفئة",
+      "historicalSpend": "الإنفاق التاريخي",
+      "churnProbability": "احتمالية التسرب",
+      "expectedLoss": "الخسارة المتوقعة",
+      "recencyDays": "أيام منذ آخر نشاط"
+    },
+    "showing": "عرض {shown} من أصل {total} من العملاء المعرّضين للخطر",
+    "driverTooltip": "{feature}: {value} SHAP (خاص بتوقع هذا العميل تحديدًا)"
+  },
+  "riskTiers": {
+    "High": "مرتفعة",
+    "Medium": "متوسطة",
+    "Low": "منخفضة"
+  },
+  "featureImportance": {
+    "title": "أهمية الميزات",
+    "subtitle": "أهمية التبديل (Permutation) — مقدار انخفاض دقة النموذج (AUC) عند خلط قيم الميزة.",
+    "unavailable": "أهمية الميزات غير متاحة (تم استخدام نموذج احتياطي مبني على قواعد استرشادية).",
+    "shapTitle": "تأثير SHAP (ذكاء اصطناعي قابل للتفسير)",
+    "shapSubtitle": "متوسط مساهمة الميزة في كل توقع على حدة — تقنية تفسير ثانية مكمّلة للأولى."
+  },
+  "retention": {
+    "title": "استراتيجية الاحتفاظ",
+    "subtitle": "مبنية على مخرجات النموذج أعلاه",
+    "businessContextLabel": "سياق العمل (اختياري)",
+    "businessContextPlaceholder": "المجال، الأهداف، القيود…",
+    "generate": "إنشاء خطة الاحتفاظ",
+    "writing": "جارٍ الكتابة…",
+    "reportTitle": "استراتيجية الاحتفاظ بالعملاء"
+  }
+}
